@@ -1,3 +1,6 @@
+# Star Wars Empire at War Value Changer
+# Author: JCStaples
+
 import xml.etree.ElementTree as ET
 import os    
 
