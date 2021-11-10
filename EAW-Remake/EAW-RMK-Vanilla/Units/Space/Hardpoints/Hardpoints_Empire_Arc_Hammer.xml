@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HardPoints>
+
+
+
+<!-- ARC HAMMER HARD POINTS -->
+
+        <HardPoint Name="HP_Arc_Hammer_ML_01">
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE_HEAVY</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_ML_01</Attachment_Bone>
+            <Collision_Mesh>HP_ML_01</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_ML_01_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_ML_01_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>175</Fire_Cone_Width>
+            <Fire_Cone_Height>150.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Concussion_Missile_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>7.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>12</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3250.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 27.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+        <HardPoint Name="HP_Arc_Hammer_ML_02">
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE_HEAVY</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_ML_02</Attachment_Bone>
+            <Collision_Mesh>HP_ML_02</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_ML_02_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_ML_02_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>175</Fire_Cone_Width>
+            <Fire_Cone_Height>150.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Concussion_Missile_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>7.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>12</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3250.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 27.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+        <HardPoint Name="HP_Arc_Hammer_ML_03">
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE_HEAVY</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_ML_03</Attachment_Bone>
+            <Collision_Mesh>HP_ML_03</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_ML_03_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_ML_03_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>175</Fire_Cone_Width>
+            <Fire_Cone_Height>150.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Concussion_Missile_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>7.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>12</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3250.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 27.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+        <HardPoint Name="HP_Arc_Hammer_ML_04">
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE_HEAVY</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_ML_04</Attachment_Bone>
+            <Collision_Mesh>HP_ML_04</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_ML_04_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_ML_04_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>175</Fire_Cone_Width>
+            <Fire_Cone_Height>150.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Concussion_Missile_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>7.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>7.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>12</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3250.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+			
+			<Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 27.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 35.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_03</Attachment_Bone>
+            <Collision_Mesh>HP_LC_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_03_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_03_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_04</Attachment_Bone>
+            <Collision_Mesh>HP_LC_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_04_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_04_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_05">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_05</Attachment_Bone>
+            <Collision_Mesh>HP_LC_05</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_05_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_05_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_06">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_06</Attachment_Bone>
+            <Collision_Mesh>HP_LC_06</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_06_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_06_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_07">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_07</Attachment_Bone>
+            <Collision_Mesh>HP_LC_07</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_07_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_07_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_08">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_08</Attachment_Bone>
+            <Collision_Mesh>HP_LC_08</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_08_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_08_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_09">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_09</Attachment_Bone>
+            <Collision_Mesh>HP_LC_09</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_09_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_09_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_10">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_10</Attachment_Bone>
+            <Collision_Mesh>HP_LC_10</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_10_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_10_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_11">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_11</Attachment_Bone>
+            <Collision_Mesh>HP_LC_11</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_11_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_11_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_LC_12">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LC_12</Attachment_Bone>
+            <Collision_Mesh>HP_LC_12</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_LC_12_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LC_12_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>179</Fire_Cone_Width>
+            <Fire_Cone_Height>175</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_Arc_Hammer_TL_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_01</Attachment_Bone>
+            <Collision_Mesh>HP_TL_01</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_01_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_01_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+   <HardPoint Name="HP_Arc_Hammer_TL_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_02</Attachment_Bone>
+            <Collision_Mesh>HP_TL_02</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_02_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_02_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+    
+   <HardPoint Name="HP_Arc_Hammer_TL_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_03</Attachment_Bone>
+            <Collision_Mesh>HP_TL_03</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_03_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_03_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+    
+   <HardPoint Name="HP_Arc_Hammer_TL_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_04</Attachment_Bone>
+            <Collision_Mesh>HP_TL_04</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_04_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_04_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+    
+   <HardPoint Name="HP_Arc_Hammer_TL_05">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_05</Attachment_Bone>
+            <Collision_Mesh>HP_TL_05</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_05_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_05_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+    
+   <HardPoint Name="HP_Arc_Hammer_TL_06">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_06</Attachment_Bone>
+            <Collision_Mesh>HP_TL_06</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_06_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_06_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+    
+   <HardPoint Name="HP_Arc_Hammer_TL_07">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_07</Attachment_Bone>
+            <Collision_Mesh>HP_TL_07</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_07_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_07_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+    
+   <HardPoint Name="HP_Arc_Hammer_TL_08">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+            <Health>2500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_08</Attachment_Bone>
+            <Collision_Mesh>HP_TL_08</Collision_Mesh>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+			 
+            <Fire_Bone_A>HP_TL_08_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_TL_08_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>178</Fire_Cone_Width>
+            <Fire_Cone_Height>178</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Quad_Empire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_Engines_01">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>7500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_Engines_01</Attachment_Bone>
+            <Collision_Mesh>HP_Engines_01</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles></Damage_Particles>
+            <Engine_Particles></Engine_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_Engines_02">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>7500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_Engines_02</Attachment_Bone>
+            <Collision_Mesh>HP_Engines_02</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles></Damage_Particles>
+            <Engine_Particles></Engine_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_Engines_03">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>7500.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_Engines_03</Attachment_Bone>
+            <Collision_Mesh>HP_Engines_03</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles></Damage_Particles>
+            <Engine_Particles></Engine_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arc_Hammer_Shield_Generator_01">
+			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>5000.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Attachment_Bone>HP_Shield_Generator_01</Attachment_Bone>
+        <Collision_Mesh>HP_Shield_Generator_01</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+    </HardPoint>
+    
+        <HardPoint Name="HP_Arc_Hammer_Shield_Generator_02">
+			<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>5000.0</Health>
+
+			<Death_Explosion_Particles> New_Space_Explosion_Medium_Heat </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Attachment_Bone>HP_Shield_Generator_02</Attachment_Bone>
+        <Collision_Mesh>HP_Shield_Generator_02</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+    </HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_00">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_00</Attachment_Bone>             
+		<Collision_Mesh>Spawn_00</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_01">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_01</Attachment_Bone>             
+		<Collision_Mesh>Spawn_01</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_02">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_02</Attachment_Bone>             
+		<Collision_Mesh>Spawn_02</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_03">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_03</Attachment_Bone>             
+		<Collision_Mesh>Spawn_03</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_04">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_04</Attachment_Bone>             
+		<Collision_Mesh>Spawn_04</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_05">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_05</Attachment_Bone>             
+		<Collision_Mesh>Spawn_05</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_06">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_06</Attachment_Bone>             
+		<Collision_Mesh>Spawn_06</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_07">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_07</Attachment_Bone>             
+		<Collision_Mesh>Spawn_07</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_08">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_08</Attachment_Bone>             
+		<Collision_Mesh>Spawn_08</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_09">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_09</Attachment_Bone>             
+		<Collision_Mesh>Spawn_09</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_10">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_10</Attachment_Bone>             
+		<Collision_Mesh>Spawn_10</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_11">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_11</Attachment_Bone>             
+		<Collision_Mesh>Spawn_11</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_12">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_12</Attachment_Bone>             
+		<Collision_Mesh>Spawn_12</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_13">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_13</Attachment_Bone>             
+		<Collision_Mesh>Spawn_13</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_14">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_14</Attachment_Bone>             
+		<Collision_Mesh>Spawn_14</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_15">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_15</Attachment_Bone>             
+		<Collision_Mesh>Spawn_15</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_16">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_16</Attachment_Bone>             
+		<Collision_Mesh>Spawn_16</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_17">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_17</Attachment_Bone>             
+		<Collision_Mesh>Spawn_17</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_18">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_18</Attachment_Bone>             
+		<Collision_Mesh>Spawn_18</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_19">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_19</Attachment_Bone>             
+		<Collision_Mesh>Spawn_19</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_20">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_20</Attachment_Bone>             
+		<Collision_Mesh>Spawn_20</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_21">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_21</Attachment_Bone>             
+		<Collision_Mesh>Spawn_21</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_22">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_22</Attachment_Bone>             
+		<Collision_Mesh>Spawn_22</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_23">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_23</Attachment_Bone>             
+		<Collision_Mesh>Spawn_23</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_24">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_24</Attachment_Bone>             
+		<Collision_Mesh>Spawn_24</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_25">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_25</Attachment_Bone>             
+		<Collision_Mesh>Spawn_25</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_26">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_26</Attachment_Bone>             
+		<Collision_Mesh>Spawn_26</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_27">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_27</Attachment_Bone>             
+		<Collision_Mesh>Spawn_27</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_28">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_28</Attachment_Bone>             
+		<Collision_Mesh>Spawn_28</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_29">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_29</Attachment_Bone>             
+		<Collision_Mesh>Spawn_29</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_30">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_30</Attachment_Bone>             
+		<Collision_Mesh>Spawn_30</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_31">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_31</Attachment_Bone>             
+		<Collision_Mesh>Spawn_31</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_32">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_32</Attachment_Bone>             
+		<Collision_Mesh>Spawn_32</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_33">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_33</Attachment_Bone>             
+		<Collision_Mesh>Spawn_33</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_34">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_34</Attachment_Bone>             
+		<Collision_Mesh>Spawn_34</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_35">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_35</Attachment_Bone>             
+		<Collision_Mesh>Spawn_35</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_36">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_36</Attachment_Bone>             
+		<Collision_Mesh>Spawn_36</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_37">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_37</Attachment_Bone>             
+		<Collision_Mesh>Spawn_37</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_38">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_38</Attachment_Bone>             
+		<Collision_Mesh>Spawn_38</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_39">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_39</Attachment_Bone>             
+		<Collision_Mesh>Spawn_39</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_40">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_40</Attachment_Bone>             
+		<Collision_Mesh>Spawn_40</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_41">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_41</Attachment_Bone>             
+		<Collision_Mesh>Spawn_41</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_42">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_42</Attachment_Bone>             
+		<Collision_Mesh>Spawn_42</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_43">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_43</Attachment_Bone>             
+		<Collision_Mesh>Spawn_43</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_44">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_44</Attachment_Bone>             
+		<Collision_Mesh>Spawn_44</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_45">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_45</Attachment_Bone>             
+		<Collision_Mesh>Spawn_45</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_46">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_46</Attachment_Bone>             
+		<Collision_Mesh>Spawn_46</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_47">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_47</Attachment_Bone>             
+		<Collision_Mesh>Spawn_47</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_48">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_48</Attachment_Bone>             
+		<Collision_Mesh>Spawn_48</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_49">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_49</Attachment_Bone>             
+		<Collision_Mesh>Spawn_49</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_50">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_50</Attachment_Bone>             
+		<Collision_Mesh>Spawn_50</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_51">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_51</Attachment_Bone>             
+		<Collision_Mesh>Spawn_51</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_52">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_52</Attachment_Bone>             
+		<Collision_Mesh>Spawn_52</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_53">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_53</Attachment_Bone>             
+		<Collision_Mesh>Spawn_53</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_54">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_54</Attachment_Bone>             
+		<Collision_Mesh>Spawn_54</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_55">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_55</Attachment_Bone>             
+		<Collision_Mesh>Spawn_55</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_56">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_56</Attachment_Bone>             
+		<Collision_Mesh>Spawn_56</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_57">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_57</Attachment_Bone>             
+		<Collision_Mesh>Spawn_57</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_58">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_58</Attachment_Bone>             
+		<Collision_Mesh>Spawn_58</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_59">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_59</Attachment_Bone>             
+		<Collision_Mesh>Spawn_59</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_60">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_60</Attachment_Bone>             
+		<Collision_Mesh>Spawn_60</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_61">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_61</Attachment_Bone>             
+		<Collision_Mesh>Spawn_61</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_62">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_62</Attachment_Bone>             
+		<Collision_Mesh>Spawn_62</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="HP_Arc_Hammer_Hangar_63">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+		<Attachment_Bone>Spawn_63</Attachment_Bone>             
+		<Collision_Mesh>Spawn_63</Collision_Mesh>
+		<Damage_Particles></Damage_Particles>
+	</HardPoint>
+
+</HardPoints>

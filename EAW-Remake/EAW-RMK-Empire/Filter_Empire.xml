@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Story>
+    <Event Name="Universal_Story_Start">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+    </Event>
+
+    
+
+    <Event Name="CLICK_Space_Tab">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_space_tab</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>SpaceTab</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="FORCE_CLICK_GUI_Space_Buildings">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Force_Space_Buildings</Event_Param2>
+        <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+        <Reward_Param1>b_filters_station</Reward_Param1>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="FORCE_CLICK_GUI_Space_Capitals">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Force_Space_Capitals</Event_Param2>
+        <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+        <Reward_Param1>b_filters_capital</Reward_Param1>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="FORCE_CLICK_GUI_Space_Frigates">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Force_Space_Frigates</Event_Param2>
+        <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+        <Reward_Param1>b_filters_frigate</Reward_Param1>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="FORCE_CLICK_GUI_Space_Corvettes_Fighters">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Force_Space_Corvettes_Fighters</Event_Param2>
+        <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+        <Reward_Param1>b_filters_corvette</Reward_Param1>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    
+    
+    <Event Name="CLICK_Filter_Space_Buildings">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_filters_station</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>SpaceBuildings</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="CLICK_Filter_Space_Capitals">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_filters_capital</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>SpaceCapitals</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="CLICK_Filter_Space_Frigates">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_filters_frigate</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>SpaceFrigates</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="CLICK_Filter_Space_Corvettes_Fighters">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_filters_corvette</Event_Param1>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>SpaceCorvettesFighters</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Prereq>Universal_Story_Start</Prereq>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+
+    
+
+    <Event Name="FORCE_CLICK_GUI_To_Space">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+        <Reward_Param1>b_space_tab</Reward_Param1>
+        <Prereq>CLICK_Filter_Space_Buildings</Prereq>
+        <Prereq>CLICK_Filter_Space_Capitals</Prereq>
+        <Prereq>CLICK_Filter_Space_Frigates</Prereq>
+        <Prereq>CLICK_Filter_Space_Corvettes_Fighters</Prereq>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    
+
+    <Event Name="CLICK_Pause">
+        <Event_Type>STORY_CLICK_GUI</Event_Type>
+        <Event_Param1>b_play_pause</Event_Param1>
+        <Perpetual>true</Perpetual>
+    </Event>
+
+    <Event Name="FORCE_CLICK_Pause">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>TRIGGER_PAUSE_NOTIFICATION</Event_Param2>
+        <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+        <Reward_Param1>b_play_pause</Reward_Param1>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    
+
+    <Event Name="Lock_Unit_Event">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>LOCK_UNIT_NOTIFICATION</Event_Param2>
+        <Reward_Type>LOCK_UNIT</Reward_Type>
+        <Reward_Param1 />
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="Unlock_Unit_Event">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>UNLOCK_UNIT_NOTIFICATION</Event_Param2>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1 />
+        <Perpetual>True</Perpetual>
+    </Event>
+</Story>

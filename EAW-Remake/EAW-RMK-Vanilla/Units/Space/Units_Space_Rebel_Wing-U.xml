@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<X-Wing_Files>
+
+	<!-- **** BASE SHIP INFORMATION **** -->
+	
+	<SpaceUnit Name="U_Wing_LC">
+		<LOD_Bias>10</LOD_Bias>
+		<Text_ID>TEXT_UNIT_U_WING</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_STATS
+		</Encyclopedia_Text>
+
+				<Number_per_Squadron>50</Number_per_Squadron>
+
+		<Space_Model_Name>Rebel_U_Wing.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+		<OverrideAcceleration> 0.6 </OverrideAcceleration>
+		<OverrideDeceleration> 0.6 </OverrideDeceleration>
+		<Mass>0.98</Mass>
+		<Max_Speed>5.0</Max_Speed> <!-- 7.5 with S-foils -->
+		<Min_Speed>1</Min_Speed>
+		<Max_Lift>1.25</Max_Lift>
+		<Max_Rate_Of_Turn>1.25</Max_Rate_Of_Turn>
+		<Max_Thrust>0.6</Max_Thrust>
+		<Max_Rate_Of_Roll>2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>No</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>13</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>25</Turret_Elevate_Extent_Degrees>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>40</Shield_Points>
+		<Tactical_Health>40</Tactical_Health>
+		<Shield_Refresh_Rate>13</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, REVEAL, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>5</Damage>
+		
+		<Fires_Forward>No</Fires_Forward>
+
+		<HardPoints>
+			New_HP_U_Wing_01,
+			New_HP_U_Wing_02_LC,
+		</HardPoints>
+
+		<Land_FOW_Reveal_Range>1250.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1250.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space_Fighter</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>		
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber | AntiFighter </CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>I_BUTTON_UNIT_REBEL_U_WING.TGA</Icon_Name>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Custom_Footprint_Radius> 5.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>2.5</Targeting_Stickiness_Time_Threshold>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
+
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Fighter</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+		
+	</SpaceUnit>
+	
+	<SpaceUnit Name="U_Wing_IC">
+		<Variant_Of_Existing_Type>U_Wing_LC</Variant_Of_Existing_Type>
+
+		<HardPoints>
+			New_HP_U_Wing_01,
+			New_HP_U_Wing_02_IC,
+		</HardPoints>
+	</SpaceUnit>
+
+	<!-- **** SQUADRON INFORMATION **** -->
+
+	<Squadron Name="U_Wing_Squadron">
+		<LOD_Bias>10</LOD_Bias>
+		<Text_ID>TEXT_UNIT_U_WING_SQUADRON</Text_ID>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_STATS
+		</Encyclopedia_Text>
+
+		<Max_Squad_Size> 50 </Max_Squad_Size>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>300</Autoresolve_Health>
+		<Damage>25</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<Build_Time_Seconds>6</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline></Required_Timeline>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Squadron_Units>U_Wing_IC, U_Wing_IC, U_Wing_LC, U_Wing_LC</Squadron_Units>
+		<AI_Combat_Power>15</AI_Combat_Power>
+
+		<Squadron_Offsets>75.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>75.0,-75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-75.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-75.0,-75.0,0.0</Squadron_Offsets>
+
+		<Icon_Name>I_BUTTON_UNIT_REBEL_U_WING.TGA</Icon_Name>
+		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
+		<GUI_Distance>95</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_X_Wing</SFXEvent_Build_Complete>
+
+		<FormationOrder>2</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>75.0</Squadron_Formation_Error_Tolerance> <!-- 200-->
+		<Guard_Chase_Range>1500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1500.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Autonomous_Move_Extension_Vs_Attacker>1500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+			<Type>SPOILER_LOCK</Type>
+			
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+
+        </Abilities>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>2</Population_Value>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+
+				<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
+		<Create_Team_Type>U_Wing_Squadron_Container </Create_Team_Type>
+	</Squadron>
+	
+	<Container Name="U_Wing_Squadron_Container">
+		<Text_ID>TEXT_UNIT_U_WING_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REBELLION_U_WING_STATS
+		</Encyclopedia_Text>
+
+		<Show_Name>No</Show_Name>
+
+		<Icon_Name>I_BUTTON_UNIT_REBEL_U_WING.TGA</Icon_Name>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>1600</Autoresolve_Health>
+		<Damage>50</Damage>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>5</Tech_Level>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>0.5</Hyperspace_Speed>
+		
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Max_Speed>5.0</Max_Speed> <!-- 7.5 with S-foils -->
+		<Min_Speed>1</Min_Speed>
+
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	 			
+		<CategoryMask> Fighter | AntiBomber | AntiFighter </CategoryMask>
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>75.0</Squadron_Formation_Error_Tolerance> <!-- 1250 -->
+		<Guard_Chase_Range>1500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1500.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+		<Squadron_Offsets>75.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>75.0,-75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-75.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-75.0,-75.0,0.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>SPOILER_LOCK</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		1.5f</Mod_Multiplier>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+	<SFXEvent_Select>SFX_NA</SFXEvent_Select>
+	</Container>
+
+</X-Wing_Files>

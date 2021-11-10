@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<FunctionSet>
+	<Defend_Space_Station>
+		<Goal>Defend_Space_Station</Goal>
+		<Function>Need_To_Defend_Space_Station</Function>
+	</Defend_Space_Station>
+
+    <Defend_Asteroid_Building>
+		<Goal>Defend_Asteroid_Building</Goal>
+		<Function>Need_To_Defend_Asteroid_Building</Function>
+	</Defend_Asteroid_Building>
+
+	<Keep_Space_Station_Alive>
+		<Goal>Keep_Space_Station_Alive</Goal>
+		<Function>Need_To_Keep_Space_Station_Alive</Function>
+	</Keep_Space_Station_Alive>
+</FunctionSet>

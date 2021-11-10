@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<AIPlayerType>
+
+	<Name> SkirmishAi </Name>
+	
+	<Personality>
+		<Focus> 1.0 </Focus>
+		<Aggressiveness> 1.0 </Aggressiveness>
+	</Personality>
+	
+	<GoalSetExtensionSize>7</GoalSetExtensionSize>
+
+    <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
+    <SpaceFreeStoreScript>BusyTacticalFreeStore</SpaceFreeStoreScript>
+    <LandFreeStoreScript>BusyTacticalFreeStore</LandFreeStoreScript>
+	
+	<GoalProposalFunctionSets>
+		SystemFunctions
+		
+		AI_GoalSet_ExpansionGeneric_Land
+		BasicOffensiveSpaceSet
+		BasicLandGoalSet
+
+		Space_BuildUpgrades_Default
+		Space_BuildUnits_Default
+		Space_DefendStructures_Default
+		Space_MapControl_Default
+	</GoalProposalFunctionSets>
+	
+	<Templates>
+		<Space>
+			Space_Generic
+		</Space>
+		<Land>
+			Test_Land
+		</Land>
+		<Galactic>
+			Skirmish_Default
+		</Galactic>
+	</Templates>
+
+	<Difficulty_Adjustments>
+		<Easy>Easy_Skirmish</Easy>
+		<Normal>Medium_Skirmish</Normal>
+		<Hard>Hard_Skirmish</Hard>
+	</Difficulty_Adjustments>
+	
+</AIPlayerType>

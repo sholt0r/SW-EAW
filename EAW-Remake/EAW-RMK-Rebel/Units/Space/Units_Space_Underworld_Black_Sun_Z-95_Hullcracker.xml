@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpaceUnitsCapital>
+
+	<SpaceUnit Name="Z-95_Headhunter_Torpedo_Bomber">
+		<Variant_Of_Existing_Type>Z-95_Headhunter</Variant_Of_Existing_Type>
+
+		<Icon_Name>I_BUTTON_UNIT_REPUBLIC_HULLCRACKER.TGA</Icon_Name>
+		<Text_ID>TEXT_STARFIGHTER_HEADHUNTERTB</Text_ID>		
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_UNDERWORLD_Z95
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_UNDERWORLD_Z95_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_UNDERWORLD_Z95_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REPUBLIC_HEADHUNTER_STATS
+		</Encyclopedia_Text>
+		
+		<HardPoints>
+			New_HP_Z-95_01,
+			New_HP_Z-95_03,
+		</HardPoints>
+
+		<CategoryMask> Fighter | Bomber | AntiBomber | AntiFrigate | AntiCapital </CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Victory_Relevant>Yes</Victory_Relevant>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 5.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+	</SpaceUnit>
+
+	<Squadron Name="Z95_Headhunter_Squadron_U_Torpedo_Bomber">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron</Variant_Of_Existing_Type>
+
+		<Icon_Name>I_BUTTON_UNIT_REPUBLIC_HULLCRACKER.TGA</Icon_Name>
+		<Text_ID>TEXT_STARFIGHTER_HEADHUNTERTBS</Text_ID>		
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_UNDERWORLD_Z95
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_UNDERWORLD_Z95_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_UNDERWORLD_Z95_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_REPUBLIC_HEADHUNTER_STATS
+		</Encyclopedia_Text>
+
+		<Affiliation>Underworld</Affiliation>
+		<Squadron_Units>Z-95_Headhunter_Torpedo_Bomber, Z-95_Headhunter_Torpedo_Bomber, Z-95_Headhunter_Torpedo_Bomber, Z-95_Headhunter_Torpedo_Bomber, Z-95_Headhunter_Torpedo_Bomber</Squadron_Units>
+		<AI_Combat_Power>4</AI_Combat_Power>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>400</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Tech_Level>0</Tech_Level>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+	</Squadron>
+
+</SpaceUnitsCapital>

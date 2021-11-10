@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hoytt_Files>
+
+	<SpaceUnit Name="Star_Destroyer_Admiral_Hoytt">
+<Variant_Of_Existing_Type>Star_Destroyer_No_Fighters</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+
+		<Icon_Name>I_BUTTON_SD_IMPERIAL_HOYTT.tga</Icon_Name>
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER_HOYTT</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER_II_HOYTT</Encyclopedia_Text>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<Build_Cost_Credits>30000</Build_Cost_Credits>
+		<AI_Combat_Power>300</AI_Combat_Power>
+
+		<Required_Special_Structures>E_Uplink_Command</Required_Special_Structures>
+		
+			<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Show_Hero_Head>Yes</Show_Hero_Head>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate | AntiCapital </CategoryMask>
+		<Neutralization_Cost>3000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+				<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>FULL_SALVO</Type>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Expiration_Seconds>15</Expiration_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_intensify_firepower.tga</Alternate_Icon_Name>
+            </Unit_Ability>
+
+			<Unit_Ability>
+	            <Type>TRACTOR_BEAM</Type>
+	    <!--    <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier> -->
+	            <GUI_Activated_Ability_Name>ISD_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+	            <Recharge_Seconds>20</Recharge_Seconds>
+	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+				<Supports_Autofire>True</Supports_Autofire>
+	      </Unit_Ability>
+			
+	</Unit_Abilities_Data>
+
+			<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids, Repair_Droids, Repair_Droids_E</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            <Activation_Max_Range>3000</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.75</Target_Speed_Decrease_Percent>
+				<Stacking_Category>90</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+
+			<Combat_Bonus_Ability Name="Rebel_Fleet_Commander_Admiral_Combat_Bonus"> 
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.2</Movement_Speed_Bonus_Percentage>
+				<Fire_Range_Bonus_Percentage>0.15</Fire_Range_Bonus_Percentage>
+				<Stacking_Category>61</Stacking_Category>
+			</Combat_Bonus_Ability>
+		</Abilities>
+
+				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>30000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	</SpaceUnit>
+	
+</Hoytt_Files>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Story>
+	<Event Name="Debug_00">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+		<Story_Tag>Debug_Tag_00</Story_Tag>
+	</Event>
+</Story>

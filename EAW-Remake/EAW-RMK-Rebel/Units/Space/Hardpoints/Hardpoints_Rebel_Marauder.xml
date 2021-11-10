@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HardPoints>
+
+<!-- Hard points for the Marauder Corvette -->
+
+	<HardPoint Name="HP_Marauder_01">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LRT_01_FP_01</Attachment_Bone>
+            <Collision_Mesh>HP_LRT_01_FP_01</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+		<Fire_Bone_A>HP_LRT_01_FP_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_LRT_01_FP_02</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>120.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+	<HardPoint Name="HP_Marauder_02">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_LRT_02_FP_01</Attachment_Bone>
+            <Collision_Mesh>HP_LRT_02_FP_01</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+		<Fire_Bone_A>HP_LRT_02_FP_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_LRT_02_FP_02</Fire_Bone_B>
+		<Fire_Cone_Width>90.0</Fire_Cone_Width>
+		<Fire_Cone_Height>120.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4000.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+    
+    	<HardPoint Name="HP_Marauder_03">
+    			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_IC_FP_01</Attachment_Bone>
+            <Collision_Mesh>HP_IC_FP_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+            <Fire_Bone_A>HP_IC_FP_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_IC_FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>170</Fire_Cone_Width>
+            <Fire_Cone_Height>170</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1750.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+	<HardPoint Name="HP_Marauder_04">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_01_FP_01</Attachment_Bone>
+            <Collision_Mesh>HP_TL_01_FP_01</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+		<Fire_Bone_A>HP_TL_01_FP_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_TL_01_FP_02</Fire_Bone_B>
+		<Fire_Cone_Width>175.0</Fire_Cone_Width>
+		<Fire_Cone_Height>150.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1750.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+	<HardPoint Name="HP_Marauder_05">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_02_FP_01</Attachment_Bone>
+            <Collision_Mesh>HP_TL_02_FP_01</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+		<Fire_Bone_A>HP_TL_02_FP_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_TL_02_FP_02</Fire_Bone_B>
+		<Fire_Cone_Width>175.0</Fire_Cone_Width>
+		<Fire_Cone_Height>150.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1750.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+	<HardPoint Name="HP_Marauder_06">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_03_FP_01</Attachment_Bone>
+            <Collision_Mesh>HP_TL_03_FP_01</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+		<Fire_Bone_A>HP_TL_03_FP_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_TL_03_FP_02</Fire_Bone_B>
+		<Fire_Cone_Width>175.0</Fire_Cone_Width>
+		<Fire_Cone_Height>150.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1750.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+	<HardPoint Name="HP_Marauder_07">
+		<Type>HARD_POINT_WEAPON_LASER</Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+		<Health>1.0</Health>
+
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_TL_04_FP_01</Attachment_Bone>
+            <Collision_Mesh>HP_TL_04_FP_01</Collision_Mesh>
+			<Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+		<Fire_Bone_A>HP_TL_04_FP_01</Fire_Bone_A>
+		<Fire_Bone_B>HP_TL_04_FP_02</Fire_Bone_B>
+		<Fire_Cone_Width>175.0</Fire_Cone_Width>
+		<Fire_Cone_Height>150.0</Fire_Cone_Height>
+		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1750.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+</HardPoints>

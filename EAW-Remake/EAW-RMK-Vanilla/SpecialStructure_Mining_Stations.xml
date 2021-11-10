@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<SpecialStructures>
+
+
+	<SpecialStructure Name="Orbital_Mine">
+		<Text_ID>TEXT_ORBITAL_MINE</Text_ID>
+		<Space_Model_Name>Station_Gas.ALO</Space_Model_Name>
+		<Icon_Name>I_Button_Unit_Neutral_Gas_Depot.tga</Icon_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Pirates</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>5500</Build_Cost_Credits>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>90</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>0</Tech_Level>
+		<Is_Interdictor>No</Is_Interdictor>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		
+		<Tactical_Health>2000</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Sabotage_Cost_Credits>3000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Mining_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Mining_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+		
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Default </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+		
+		<CategoryMask> Capital | AntiCapital | AntiFighter | AntiBomber </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+
+		<Death_Clone>Damage_Normal</Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TRADE_STATION  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 500 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>	
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="E_Orbital_Mine">
+<Variant_Of_Existing_Type>Orbital_Mine</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>0</Tech_Level>
+
+		<Space_Escort_Unit_Types>
+				Vigil_Corvette,
+				Tartan_Patrol_Cruiser,
+				Tartan_Patrol_Cruiser,
+				TIE_Fighter_Squadron,
+				TIE_Fighter_Squadron,
+		</Space_Escort_Unit_Types>
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Empire_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.5</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0.5</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="R_Orbital_Mine">
+<Variant_Of_Existing_Type>Orbital_Mine</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>0</Tech_Level>
+
+		<Space_Escort_Unit_Types>
+				Corellian_Corvette,
+				Corellian_Corvette,
+				Y-Wing_Squadron,
+				Z95_Headhunter_Rebel_Squadron,
+				Z95_Headhunter_Rebel_Squadron,
+		</Space_Escort_Unit_Types>
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Rebel_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.5</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0.5</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="U_Orbital_Mine">
+<Variant_Of_Existing_Type>Orbital_Mine</Variant_Of_Existing_Type>
+		<Affiliation>Underworld</Affiliation>
+		<Tech_Level>0</Tech_Level>
+
+		<Space_Escort_Unit_Types>
+				Crusader_Gunship,
+				Crusader_Gunship,
+				V-wing_Fighter,
+				V-wing_Fighter,
+				V-wing_Fighter,
+		</Space_Escort_Unit_Types>
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Underworld_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.5</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0.5</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+
+
+	</SpecialStructure>
+<!--
+	<SpaceUnit Name="E_Orbital_Mine_DUMMY">
+		<Variant_Of_Existing_Type>Orbital_Mine</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+    	<Hyperspace>Yes</Hyperspace>
+    	<Hyperspace_Speed>1</Hyperspace_Speed>
+    	<Build_Cost_Credits>0</Build_Cost_Credits>
+    	<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+    	<Tech_Level>99</Tech_Level>
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Underworld_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+    	<Lua_Script>Orbital_Unit</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="R_Orbital_Mine_DUMMY">
+		<Variant_Of_Existing_Type>Orbital_Mine</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+    	<Hyperspace>Yes</Hyperspace>
+    	<Hyperspace_Speed>1</Hyperspace_Speed>
+    	<Build_Cost_Credits>0</Build_Cost_Credits>
+    	<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+    	<Tech_Level>99</Tech_Level>
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Underworld_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+    	<Lua_Script>Orbital_Unit</Lua_Script>
+	</SpaceUnit>
+
+	<SpaceUnit Name="U_Orbital_Mine_DUMMY">
+		<Variant_Of_Existing_Type>Orbital_Mine</Variant_Of_Existing_Type>
+		<Affiliation>Underworld</Affiliation>
+    	<Hyperspace>Yes</Hyperspace>
+    	<Hyperspace_Speed>1</Hyperspace_Speed>
+    	<Build_Cost_Credits>0</Build_Cost_Credits>
+    	<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+    	<Tech_Level>99</Tech_Level>
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Underworld_Mining_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+		</Abilities>
+    	<Lua_Script>Orbital_Unit</Lua_Script>
+	</SpaceUnit>-->
+
+
+</SpecialStructures>

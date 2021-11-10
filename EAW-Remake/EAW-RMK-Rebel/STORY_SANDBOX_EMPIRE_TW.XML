@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_Intro_E</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro</Story_Tag>
+	</Event>
+
+	<Event Name="Intro_Completed">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Intro</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+
+
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Grand_Moff_Tarkin_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Mara_Jade">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mara_Jade_Z95_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Darth_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+
+
+
+	<Event Name="Empire_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Saber">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Saber_Squadron</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Piett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Piett_Procursator</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+
+
+
+	<Event Name="Empire_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Strikefast</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+
+
+
+	<Event Name="Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+
+
+
+	<Event Name="Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+
+
+
+    <Event Name="Thrawn_Upgrade">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Admonitor_Star_Destroyer</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+    </Event>
+
+    <Event Name="REMOVE_UNIT_Strikefast">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>Strikefast</Reward_Param1>
+        <Prereq>Thrawn_Upgrade</Prereq>
+    </Event>
+
+
+    <Event Name="Thrawn_Upgrade2">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Admonitor_II_Star_Destroyer</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+    </Event>
+
+    <Event Name="REMOVE_UNIT_Admonitor">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+        <Prereq>Thrawn_Upgrade2</Prereq>
+    </Event>
+
+
+    <Event Name="Piett_Upgrade">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Accuser_Star_Destroyer</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+    </Event>
+
+    <Event Name="REMOVE_UNIT_Piett_Procursator">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>Piett_Procursator</Reward_Param1>
+        <Prereq>Piett_Upgrade</Prereq>
+    </Event>
+
+    
+    <Event Name="Vader_Devastator_Upgrade">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+        <Event_Param1>Devastator_Star_Destroyer</Event_Param1>
+        <Event_Param2>1</Event_Param2>
+        <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+    </Event>
+
+    <Event Name="REMOVE_UNIT_Vader">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+        <Prereq>Vader_Devastator_Upgrade</Prereq>
+    </Event>
+
+	<Event Name="Unlock_Executor">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>TRIGGER_EVENT</Reward_Type>
+        <Reward_Param1>Unlock_Piett_Executor</Reward_Param1>
+        <Perpetual>True</Perpetual>
+		<Prereq>Piett_Upgrade</Prereq>
+	</Event>
+
+
+    <Event Name="Piett_Executor_Upgrade">
+        <Event_Type>STORY_CONSTRUCT</Event_Type>
+            <Event_Param1>Piett_Executor</Event_Param1>
+            <Event_Param2>1</Event_Param2>
+            <Event_Param3>FILTER_FRIENDLY_ONLY</Event_Param3>
+    </Event>
+
+    <Event Name="REMOVE_UNIT_Accuser_Star_Destroyer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+            <Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+        <Prereq>Piett_Executor_Upgrade</Prereq>
+    </Event>
+
+    <Event Name="DEATH_Executor">
+        <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+            <Event_Param1>Piett_Executor</Event_Param1>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+            <Reward_Param1>Piett_Executor</Reward_Param1>
+    </Event>
+
+	<Event Name="Piett_Executor_Died">
+        <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+            <Event_Param1>Piett_Executor</Event_Param1>
+        <Reward_Type>TRIGGER_EVENT</Reward_Type>
+        <Reward_Param1>Lock_Piett_Executor</Reward_Param1>
+        <Perpetual>True</Perpetual>
+	</Event>
+
+	<Event Name="Respawn_Accuser">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+            <Event_Param1>120</Event_Param1>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>DEATH_Executor</Prereq>
+	</Event>
+
+	<Event Name="Unlock_Executor2">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>TRIGGER_EVENT</Reward_Type>
+        <Reward_Param1>Unlock_Piett_Executor</Reward_Param1>
+        <Perpetual>True</Perpetual>
+		<Prereq>Respawn_Accuser</Prereq>
+	</Event>
+	
+    <Event Name="Unlock_Piett_Executor">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Unlock_Piett_Executor</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Piett_ExecutorOn</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="Lock_Piett_Executor">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Lock_Piett_Executor</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>Piett_ExecutorOff</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Perpetual>True</Perpetual>
+    </Event>
+	
+
+
+
+	<Event Name="Kuat_Captured">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>5</Event_Param1>
+        <Reward_Type>TRIGGER_EVENT</Reward_Type>
+        <Reward_Param1>Unlock_Kuat</Reward_Param1>
+        <Perpetual>True</Perpetual>
+	</Event>
+	
+    <Event Name="Unlock_Kuat">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Unlock_Kuat</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>KuatOn</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Perpetual>True</Perpetual>
+    </Event>
+
+    <Event Name="Lock_Kuat">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>Lock_Kuat</Event_Param2>
+        <Reward_Type>TRIGGER_AI</Reward_Type>
+        <Reward_Param1>KuatOff</Reward_Param1>
+        <Reward_Param2>Empire</Reward_Param2>
+        <Perpetual>True</Perpetual>
+    </Event>
+	
+	
+
+	<Event Name="Spawn_Ozzel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Ozzel_Executor</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+
+    <Event Name="DEATH_Ozzel_Executor">
+        <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+            <Event_Param1>Ozzel_Executor</Event_Param1>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+            <Reward_Param1>Ozzel_Executor</Reward_Param1>
+    </Event>
+
+	<Event Name="Ozzel_Text">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>2</Event_Param1>
+        <Reward_Type>SPEECH</Reward_Type>
+        <Reward_Param1>OZZEL_GO_BYE_BYE</Reward_Param1>
+		<Story_Dialog>Dialog_Ozzel</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro</Story_Tag>
+		<Prereq>DEATH_Ozzel_Executor</Prereq>
+    </Event>
+
+
+    <Event Name="Remove_Ozzel_Executor_Because_Piett">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>REMOVE_UNIT</Reward_Type>
+        <Reward_Param1>Ozzle_Executor</Reward_Param1>
+        <Prereq>Piett_Executor_Upgrade</Prereq>
+    </Event>
+</Story>

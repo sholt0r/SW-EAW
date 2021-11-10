@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<Equations>
+	<Need_To_Reinforce_Fleet>
+		Function_HighImportance.Evaluate
+		*
+		(Function_Space_Area_Is_Empty.Evaluate + Function_Space_Area_Is_Friendly.Evaluate)
+		*
+		(Variable_Self.ReinforcementsUnnormalized > 0)
+		*
+		(Variable_Self.UnitSpaceAvailable > 0)
+	</Need_To_Reinforce_Fleet>
+
+	<Need_To_Defend_Space_Station>
+		Function_HighestImportance.Evaluate
+		*
+        Function_Target_Is_Space_Station.Evaluate
+		*
+		Function_Target_Has_No_Allied_Units_In_Its_Area.Evaluate
+		*
+		Function_Target_Is_Currently_Taking_Damage.Evaluate
+	</Need_To_Defend_Space_Station>
+
+	<Need_To_Defend_Asteroid_Building>
+		Function_MediumImportance.Evaluate
+		*
+        Function_Target_Is_Asteroid_Building.Evaluate
+		*
+		Function_Target_Has_No_Allied_Units_In_Its_Area.Evaluate
+		*
+		Function_Target_Is_Currently_Taking_Damage.Evaluate
+	</Need_To_Defend_Asteroid_Building>
+
+	<Need_To_Keep_Space_Station_Alive>
+		Function_HighestImportance.Evaluate
+		*
+        Function_Target_Is_Space_Station.Evaluate
+		*
+		Function_Target_Has_No_Allied_Major_Forces_In_Its_Area.Evaluate
+		*
+		Function_Target_Is_Under_Siege.Evaluate
+	</Need_To_Keep_Space_Station_Alive>
+</Equations>

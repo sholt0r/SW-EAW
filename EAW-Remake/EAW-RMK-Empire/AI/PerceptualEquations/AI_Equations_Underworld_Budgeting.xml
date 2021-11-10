@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+
+<Equations>
+
+	<!-- Max: 7.5, Min: 5, Avg: 6.0 -->
+	<Underworld_Offensive_Budget_Allocation>
+		5
+		+
+		(Variable_Self.PlanetsControlled)
+		+
+		(2.0 * (1.0 - Function_Has_Enough_Space_Force_Globally.Evaluate))
+	</Underworld_Offensive_Budget_Allocation>
+
+	<!-- Max: 2.5, Min: 0.5, Avg: 1.5 -->
+	<Underworld_Infrastructure_Budget_Allocation>
+		(4.5 - Variable_Self.MaxedStarbases)
+		+
+		(1.0 -
+			(
+				(
+					Variable_Self.StructureCount {Parameter_Type = "R_Orbital_Mine"}
+				)
+				/ Variable_Self.PlanetsControlledUnnormalized
+			)
+		)
+	</Underworld_Infrastructure_Budget_Allocation>
+
+</Equations>

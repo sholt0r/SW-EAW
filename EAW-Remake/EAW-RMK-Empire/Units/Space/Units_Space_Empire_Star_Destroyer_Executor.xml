@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Executor_Files>
+
+<!-- Executor Template -->	
+	<UniqueUnit Name="Executor_Star_Dreadnought_Template">
+		<Space_Model_Name>Empire_Executor_Super_Star_Destroyer.ALO</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+
+		<Text_ID>TEXT_UNIT_SSD_EXECUTOR</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_STAR_DREADNOUGHT </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_EXECUTOR_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_STATS
+		</Encyclopedia_Text>		
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_SD_EXECUTOR.TGA</Icon_Name>
+
+		<GUI_Row> 0 </GUI_Row>
+		<CategoryMask> Capital | AntiCapital </CategoryMask>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Visible_On_Radar_When_Fogged>Yes</Visible_On_Radar_When_Fogged>
+		<Is_Visible_On_Enemy_Radar>Yes</Is_Visible_On_Enemy_Radar>
+		<Radar_Icon_Name>i_radar_Executor.tga</Radar_Icon_Name>
+		<Radar_Icon_Size>0.8  0.8</Radar_Icon_Size>
+
+		<Max_Speed>6</Max_Speed>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.025</Max_Rate_Of_Roll>
+		<OverrideAcceleration> 0.035 </OverrideAcceleration>
+		<OverrideDeceleration> 0.035 </OverrideDeceleration>
+		
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.25</Hyperspace_Speed>
+
+		<Tech_Level>99</Tech_Level>
+		<Affiliation>Empire</Affiliation>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Population_Value>200</Population_Value>
+		<AI_Combat_Power>4500</AI_Combat_Power>
+		<Build_Cost_Credits>1250000</Build_Cost_Credits>
+		<Build_Time_Seconds>900</Build_Time_Seconds>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> AAA_COUNTDOWN_TIME_EXECUTOR </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 64, 128, 255, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+		
+		<Armor_Type> Armor_Default </Armor_Type>
+		<Shield_Armor_Type> Shield_Default </Shield_Armor_Type>
+
+		<Autoresolve_Health>18000</Autoresolve_Health>
+		<Shield_Points>400000</Shield_Points>		
+		<Tactical_Health>600000</Tactical_Health>		
+		<Shield_Refresh_Rate>4000</Shield_Refresh_Rate>
+
+		<HardPoints>
+		HP_Executor_Face,
+		HP_Executor_Shield_01, HP_Executor_Shield_02, HP_Executor_Shield_03, HP_Executor_Shield_04, HP_Executor_Shield_05, HP_Executor_Shield_06,
+		HP_Executor_Hanger_00, HP_Executor_Hanger_01, HP_Executor_Hanger_02, HP_Executor_Hanger_03, HP_Executor_Hanger_04, HP_Executor_Hanger_05, HP_Executor_Hanger_06, HP_Executor_Hanger_07, HP_Executor_Hanger_08, HP_Executor_Hanger_09,
+		HP_Executor_Hanger_10, HP_Executor_Hanger_11, HP_Executor_Hanger_12, HP_Executor_Hanger_13, HP_Executor_Hanger_14, HP_Executor_Hanger_15, HP_Executor_Hanger_16, HP_Executor_Hanger_17, HP_Executor_Hanger_18, HP_Executor_Hanger_19,
+		HP_Executor_HIC_01, HP_Executor_HIC_02, HP_Executor_HIC_03, HP_Executor_HIC_04, HP_Executor_HIC_05,	HP_Executor_HIC_06, HP_Executor_HIC_07, HP_Executor_HIC_08, HP_Executor_HIC_09, HP_Executor_HIC_10, HP_Executor_HIC_11,
+		HP_Executor_HML_01, HP_Executor_HML_02, HP_Executor_HML_03, HP_Executor_HML_04, HP_Executor_HML_05,	HP_Executor_HML_06, HP_Executor_HML_07, HP_Executor_HML_08, HP_Executor_HML_09, HP_Executor_HML_10,
+		HP_Executor_HML_11, HP_Executor_HML_12, HP_Executor_HML_13, HP_Executor_HML_14, HP_Executor_HML_15,	HP_Executor_HML_16, HP_Executor_HML_17, HP_Executor_HML_18, HP_Executor_HML_19, HP_Executor_HML_20,
+		HP_Executor_HTL_01, HP_Executor_HTL_02, HP_Executor_HTL_03, HP_Executor_HTL_04, HP_Executor_HTL_05,	HP_Executor_HTL_06, HP_Executor_HTL_07, HP_Executor_HTL_08, HP_Executor_HTL_09, HP_Executor_HTL_10, HP_Executor_HTL_11, HP_Executor_HTL_12,
+		HP_Executor_DTL_01, HP_Executor_DTL_02, HP_Executor_DTL_03, HP_Executor_DTL_04, HP_Executor_DTL_05, HP_Executor_DTL_06, HP_Executor_DTL_07, HP_Executor_DTL_08, HP_Executor_DTL_09, HP_Executor_DTL_10,
+		HP_Executor_DTL_11, HP_Executor_DTL_12, HP_Executor_DTL_13, HP_Executor_DTL_14, HP_Executor_DTL_15, HP_Executor_DTL_16, HP_Executor_DTL_17, HP_Executor_DTL_18, HP_Executor_DTL_19,
+							HP_Executor_DTL_22, HP_Executor_DTL_23, HP_Executor_DTL_24, HP_Executor_DTL_25, HP_Executor_DTL_26, HP_Executor_DTL_27, HP_Executor_DTL_28, HP_Executor_DTL_29, HP_Executor_DTL_30,
+		HP_Executor_DTL_31, HP_Executor_DTL_32, HP_Executor_DTL_33, HP_Executor_DTL_34, HP_Executor_DTL_35, HP_Executor_DTL_36, HP_Executor_DTL_37, HP_Executor_DTL_38, HP_Executor_DTL_39, HP_Executor_DTL_40,
+		HP_Executor_DTL_41, HP_Executor_DTL_42, HP_Executor_DTL_43, HP_Executor_DTL_44, HP_Executor_DTL_45, HP_Executor_DTL_46, HP_Executor_DTL_47, HP_Executor_DTL_48, HP_Executor_DTL_49, HP_Executor_DTL_50,
+		HP_Executor_DTL_51, HP_Executor_DTL_52, HP_Executor_DTL_53, HP_Executor_DTL_54, HP_Executor_DTL_55, HP_Executor_DTL_56, HP_Executor_DTL_57, HP_Executor_DTL_58, HP_Executor_DTL_59, HP_Executor_DTL_60,
+		HP_Executor_DTL_61, HP_Executor_DTL_62, HP_Executor_DTL_63, HP_Executor_DTL_64, HP_Executor_DTL_65, HP_Executor_DTL_66, HP_Executor_DTL_67, HP_Executor_DTL_68, HP_Executor_DTL_69, HP_Executor_DTL_70,
+		HP_Executor_DTL_71, HP_Executor_DTL_72, HP_Executor_DTL_73, HP_Executor_DTL_74, HP_Executor_DTL_75, HP_Executor_DTL_76, HP_Executor_DTL_77, HP_Executor_DTL_78, HP_Executor_DTL_79, HP_Executor_DTL_80,
+		HP_Executor_DTL_81, HP_Executor_DTL_82, HP_Executor_DTL_83, HP_Executor_DTL_84, HP_Executor_DTL_85, HP_Executor_DTL_86, HP_Executor_DTL_87, HP_Executor_DTL_88, HP_Executor_DTL_89
+		</HardPoints>
+		
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>IDLE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<Space_FOW_Reveal_Range>30000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>8900.0</Targeting_Max_Attack_Distance>
+
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Death_Clone>Damage_Normal, Executor_Star_Dreadnought_Death_Clone</Death_Clone>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+        <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Piett </SFXEvent_Attack_Hardpoint>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>	
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_DUMMY_ART, SFX_NA</SFXEvent_Hardpoint_Destroyed>	
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Annihilator_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Annihilator_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Annihilator_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		 
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Guard_Chase_Range>10000.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>15000.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+
+		<Size_Value>8</Size_Value>
+		<Ship_Class>super</Ship_Class>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+
+		<Mass>0.999</Mass>
+		<Damage>70</Damage>
+		<Energy_Capacity>99000</Energy_Capacity>
+		<Energy_Refresh_Rate>10000</Energy_Refresh_Rate>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>	
+			
+		<Select_Box_Z_Adjust>1</Select_Box_Z_Adjust>
+		<Select_Box_Scale>1</Select_Box_Scale>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
+
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Formation_Priority>0</Formation_Priority>
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<Political_Faction>Empire</Political_Faction>		
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+		<Landing_Transport_Variant>Shuttle_Tyderium_Landing</Landing_Transport_Variant>
+
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>200000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>100</Tactical_Build_Time_Seconds>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Tactical_Build_Prerequisites>Skirmish_Empire_Star_Base_5</Tactical_Build_Prerequisites>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</UniqueUnit>
+		
+
+	<UniqueUnit Name="Executor_Star_Dreadnought">
+		<Variant_Of_Existing_Type>Executor_Star_Dreadnought_Template</Variant_Of_Existing_Type>
+
+		<Tech_Level>5</Tech_Level>
+
+			<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 6</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 94</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 6</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 54</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron_Elite, 2</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron_Elite, 18</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+	</UniqueUnit>	
+
+	
+	<SpaceUnit Name="Executor_Star_Dreadnought_Death_Clone">
+		<Text_ID> TEXT_UNIT_SSD_EXECUTOR </Text_ID>
+		<Space_Model_Name>Empire_Executor_Super_Star_Destroyer.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>Empire_Executor_Super_Star_Destroyer.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+		<Scale_Factor> 1 </Scale_Factor>
+		<Layer_Z_Adjust> 190.0 </Layer_Z_Adjust>
+		<Max_Speed> 0.25 </Max_Speed>
+		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
+		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+		<Affiliation> Rebel </Affiliation>
+		<Ship_Class> capital_ship </Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpaceUnit>
+
+<!-- Executor Lusankya -->	
+	<UniqueUnit Name="Executor_Star_Dreadnought_Lusankya">
+		<Variant_Of_Existing_Type>Executor_Star_Dreadnought_Template</Variant_Of_Existing_Type>
+
+		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_5</Tactical_Build_Prerequisites>
+		<Tech_Level>99</Tech_Level>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Planets>Byss, Kuat, Fondor, MonCalimari</Required_Planets>
+		<Text_ID>TEXT_TOOLTIP_EXECUTOR_LUSANKA_NAME</Text_ID>		
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_EXECUTOR_LUSANKA_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_LUSANKA_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_LUSANKA_STATS
+		</Encyclopedia_Text>
+		
+			<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 94</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 54</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>B-Wing_Squadron_Elite, 2</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron_Elite, 18</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints>
+		HP_Executor_Face, HP_Executor_Rebel_DECAL,
+		HP_Executor_Shield_01, HP_Executor_Shield_02, HP_Executor_Shield_03, HP_Executor_Shield_04, HP_Executor_Shield_05, HP_Executor_Shield_06,
+		HP_Executor_Hanger_00, HP_Executor_Hanger_01, HP_Executor_Hanger_02, HP_Executor_Hanger_03, HP_Executor_Hanger_04, HP_Executor_Hanger_05, HP_Executor_Hanger_06, HP_Executor_Hanger_07, HP_Executor_Hanger_08, HP_Executor_Hanger_09,
+		HP_Executor_Hanger_10, HP_Executor_Hanger_11, HP_Executor_Hanger_12, HP_Executor_Hanger_13, HP_Executor_Hanger_14,	HP_Executor_Hanger_15, HP_Executor_Hanger_16, HP_Executor_Hanger_17, HP_Executor_Hanger_18, HP_Executor_Hanger_19,
+		HP_Executor_HIC_01, HP_Executor_HIC_02, HP_Executor_HIC_03, HP_Executor_HIC_04, HP_Executor_HIC_05,	HP_Executor_HIC_06, HP_Executor_HIC_07, HP_Executor_HIC_08, HP_Executor_HIC_09, HP_Executor_HIC_10, HP_Executor_HIC_11,
+		HP_Executor_HML_01, HP_Executor_HML_02, HP_Executor_HML_03, HP_Executor_HML_04, HP_Executor_HML_05,	HP_Executor_HML_06, HP_Executor_HML_07, HP_Executor_HML_08, HP_Executor_HML_09, HP_Executor_HML_10,
+		HP_Executor_HML_11, HP_Executor_HML_12, HP_Executor_HML_13, HP_Executor_HML_14, HP_Executor_HML_15,	HP_Executor_HML_16, HP_Executor_HML_17, HP_Executor_HML_18, HP_Executor_HML_19, HP_Executor_HML_20,
+		HP_Executor_HTL_01, HP_Executor_HTL_02, HP_Executor_HTL_03, HP_Executor_HTL_04, HP_Executor_HTL_05,	HP_Executor_HTL_06, HP_Executor_HTL_07, HP_Executor_HTL_08, HP_Executor_HTL_09, HP_Executor_HTL_10, HP_Executor_HTL_11, HP_Executor_HTL_12,
+		HP_Executor_DTL_01, HP_Executor_DTL_02, HP_Executor_DTL_03, HP_Executor_DTL_04, HP_Executor_DTL_05, HP_Executor_DTL_06, HP_Executor_DTL_07, HP_Executor_DTL_08, HP_Executor_DTL_09, HP_Executor_DTL_10,
+		HP_Executor_DTL_11, HP_Executor_DTL_12, HP_Executor_DTL_13, HP_Executor_DTL_14, HP_Executor_DTL_15, HP_Executor_DTL_16, HP_Executor_DTL_17, HP_Executor_DTL_18, HP_Executor_DTL_19,
+							HP_Executor_DTL_22, HP_Executor_DTL_23, HP_Executor_DTL_24, HP_Executor_DTL_25, HP_Executor_DTL_26, HP_Executor_DTL_27, HP_Executor_DTL_28, HP_Executor_DTL_29, HP_Executor_DTL_30,
+		HP_Executor_DTL_31, HP_Executor_DTL_32, HP_Executor_DTL_33, HP_Executor_DTL_34, HP_Executor_DTL_35, HP_Executor_DTL_36, HP_Executor_DTL_37, HP_Executor_DTL_38, HP_Executor_DTL_39, HP_Executor_DTL_40,
+		HP_Executor_DTL_41, HP_Executor_DTL_42, HP_Executor_DTL_43, HP_Executor_DTL_44, HP_Executor_DTL_45, HP_Executor_DTL_46, HP_Executor_DTL_47, HP_Executor_DTL_48, HP_Executor_DTL_49, HP_Executor_DTL_50,
+		HP_Executor_DTL_51, HP_Executor_DTL_52, HP_Executor_DTL_53, HP_Executor_DTL_54, HP_Executor_DTL_55, HP_Executor_DTL_56, HP_Executor_DTL_57, HP_Executor_DTL_58, HP_Executor_DTL_59, HP_Executor_DTL_60,
+		HP_Executor_DTL_61, HP_Executor_DTL_62, HP_Executor_DTL_63, HP_Executor_DTL_64, HP_Executor_DTL_65, HP_Executor_DTL_66, HP_Executor_DTL_67, HP_Executor_DTL_68, HP_Executor_DTL_69, HP_Executor_DTL_70,
+		HP_Executor_DTL_71, HP_Executor_DTL_72, HP_Executor_DTL_73, HP_Executor_DTL_74, HP_Executor_DTL_75, HP_Executor_DTL_76, HP_Executor_DTL_77, HP_Executor_DTL_78, HP_Executor_DTL_79, HP_Executor_DTL_80,
+		HP_Executor_DTL_81, HP_Executor_DTL_82, HP_Executor_DTL_83, HP_Executor_DTL_84, HP_Executor_DTL_85, HP_Executor_DTL_86, HP_Executor_DTL_87, HP_Executor_DTL_88, HP_Executor_DTL_89
+		</HardPoints>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> AAA_COUNTDOWN_TIME_EXECUTOR </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Endor_Killzone_Executor">
+		<Variant_Of_Existing_Type>Executor_Star_Dreadnought_Template</Variant_Of_Existing_Type>
+		<Encyclopedia_Text> 
+		TEXT_TOOLTIP_EXECUTOR_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_ENDOR_KILLZONE
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_ENDOR_KILLZONE_STATS
+		</Encyclopedia_Text>
+		<Population_Value>0</Population_Value>
+		<Space_FOW_Reveal_Range>11500.0</Space_FOW_Reveal_Range>
+		<Shield_Points>200000</Shield_Points>		
+		<Tactical_Health>300000</Tactical_Health>		
+		<Shield_Refresh_Rate>2000</Shield_Refresh_Rate>
+
+		<HardPoints>
+		HP_Executor_Face,
+		HP_Executor_Shield_01, HP_Executor_Shield_02, HP_Executor_Shield_03, HP_Executor_Shield_04, HP_Executor_Shield_05, HP_Executor_Shield_06,
+		HP_Executor_Hanger_00, HP_Executor_Hanger_01, HP_Executor_Hanger_02, HP_Executor_Hanger_03, HP_Executor_Hanger_04, HP_Executor_Hanger_05, HP_Executor_Hanger_06, HP_Executor_Hanger_07, HP_Executor_Hanger_08, HP_Executor_Hanger_09,
+		HP_Executor_Hanger_10, HP_Executor_Hanger_11, HP_Executor_Hanger_12, HP_Executor_Hanger_13, HP_Executor_Hanger_14, HP_Executor_Hanger_15, HP_Executor_Hanger_16, HP_Executor_Hanger_17, HP_Executor_Hanger_18, HP_Executor_Hanger_19,
+		HP_Executor_Prop_HIC_01, HP_Executor_Prop_HIC_02, HP_Executor_Prop_HIC_03, HP_Executor_Prop_HIC_04, HP_Executor_Prop_HIC_05,	HP_Executor_Prop_HIC_06, HP_Executor_Prop_HIC_07, HP_Executor_Prop_HIC_08, HP_Executor_Prop_HIC_09, HP_Executor_Prop_HIC_10, HP_Executor_Prop_HIC_11,
+		HP_Executor_Prop_HML_01, HP_Executor_Prop_HML_02, HP_Executor_Prop_HML_03, HP_Executor_Prop_HML_04, HP_Executor_Prop_HML_05,	HP_Executor_Prop_HML_06, HP_Executor_Prop_HML_07, HP_Executor_Prop_HML_08, HP_Executor_Prop_HML_09, HP_Executor_Prop_HML_10,
+		HP_Executor_Prop_HML_11, HP_Executor_Prop_HML_12, HP_Executor_Prop_HML_13, HP_Executor_Prop_HML_14, HP_Executor_Prop_HML_15,	HP_Executor_Prop_HML_16, HP_Executor_Prop_HML_17, HP_Executor_Prop_HML_18, HP_Executor_Prop_HML_19, HP_Executor_Prop_HML_20,
+		HP_Executor_Prop_HTL_01, HP_Executor_Prop_HTL_02, HP_Executor_Prop_HTL_03, HP_Executor_Prop_HTL_04, HP_Executor_Prop_HTL_05,	HP_Executor_Prop_HTL_06, HP_Executor_Prop_HTL_07, HP_Executor_Prop_HTL_08, HP_Executor_Prop_HTL_09, HP_Executor_Prop_HTL_10, HP_Executor_Prop_HTL_11, HP_Executor_Prop_HTL_12,
+		HP_Executor_Prop_DTL_01, HP_Executor_Prop_DTL_02, HP_Executor_Prop_DTL_03, HP_Executor_Prop_DTL_04, HP_Executor_Prop_DTL_05, HP_Executor_Prop_DTL_06, HP_Executor_Prop_DTL_07, HP_Executor_Prop_DTL_08, HP_Executor_Prop_DTL_09, HP_Executor_Prop_DTL_10,
+		HP_Executor_Prop_DTL_11, HP_Executor_Prop_DTL_12, HP_Executor_Prop_DTL_13, HP_Executor_Prop_DTL_14, HP_Executor_Prop_DTL_15, HP_Executor_Prop_DTL_16, HP_Executor_Prop_DTL_17, HP_Executor_Prop_DTL_18, HP_Executor_Prop_DTL_19,
+							HP_Executor_Prop_DTL_22, HP_Executor_Prop_DTL_23, HP_Executor_Prop_DTL_24, HP_Executor_Prop_DTL_25, HP_Executor_Prop_DTL_26, HP_Executor_Prop_DTL_27, HP_Executor_Prop_DTL_28, HP_Executor_Prop_DTL_29, HP_Executor_Prop_DTL_30,
+		HP_Executor_Prop_DTL_31, HP_Executor_Prop_DTL_32, HP_Executor_Prop_DTL_33, HP_Executor_Prop_DTL_34, HP_Executor_Prop_DTL_35, HP_Executor_Prop_DTL_36, HP_Executor_Prop_DTL_37, HP_Executor_Prop_DTL_38, HP_Executor_Prop_DTL_39, HP_Executor_Prop_DTL_40,
+		HP_Executor_Prop_DTL_41, HP_Executor_Prop_DTL_42, HP_Executor_Prop_DTL_43, HP_Executor_Prop_DTL_44, HP_Executor_Prop_DTL_45, HP_Executor_Prop_DTL_46, HP_Executor_Prop_DTL_47, HP_Executor_Prop_DTL_48, HP_Executor_Prop_DTL_49, HP_Executor_Prop_DTL_50,
+		HP_Executor_Prop_DTL_51, HP_Executor_Prop_DTL_52, HP_Executor_Prop_DTL_53, HP_Executor_Prop_DTL_54, HP_Executor_Prop_DTL_55, HP_Executor_Prop_DTL_56, HP_Executor_Prop_DTL_57, HP_Executor_Prop_DTL_58, HP_Executor_Prop_DTL_59, HP_Executor_Prop_DTL_60,
+		HP_Executor_Prop_DTL_61, HP_Executor_Prop_DTL_62, HP_Executor_Prop_DTL_63, HP_Executor_Prop_DTL_64, HP_Executor_Prop_DTL_65, HP_Executor_Prop_DTL_66, HP_Executor_Prop_DTL_67, HP_Executor_Prop_DTL_68, HP_Executor_Prop_DTL_69, HP_Executor_Prop_DTL_70,
+		HP_Executor_Prop_DTL_71, HP_Executor_Prop_DTL_72, HP_Executor_Prop_DTL_73, HP_Executor_Prop_DTL_74, HP_Executor_Prop_DTL_75, HP_Executor_Prop_DTL_76, HP_Executor_Prop_DTL_77, HP_Executor_Prop_DTL_78, HP_Executor_Prop_DTL_79, HP_Executor_Prop_DTL_80,
+		HP_Executor_Prop_DTL_81, HP_Executor_Prop_DTL_82, HP_Executor_Prop_DTL_83, HP_Executor_Prop_DTL_84, HP_Executor_Prop_DTL_85, HP_Executor_Prop_DTL_86, HP_Executor_Prop_DTL_87, HP_Executor_Prop_DTL_88, HP_Executor_Prop_DTL_89
+		</HardPoints>
+		
+	</UniqueUnit>	
+
+</Executor_Files>

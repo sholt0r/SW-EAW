@@ -1,0 +1,729 @@
+﻿<?xml version="1.0"?>
+
+<TIE_Defender_Files>
+
+
+
+<!-- **** BASE SHIP INFORMATION **** -->
+
+	<SpaceUnit Name="TIE_Defender">
+
+		<Text_ID>TEXT_UNIT_TIE_DEFENDER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_DESCRIPTION2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_FEATURES2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_STATS2
+		</Encyclopedia_Text>
+		
+		<Space_Model_Name>Empire_TIE_Defender_2.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_TIE_DEFENDER.TGA</Icon_Name>
+		<OverrideAcceleration> 0.6 </OverrideAcceleration>
+		<OverrideDeceleration> 0.6 </OverrideDeceleration>
+
+		<Scale_Factor>1.0</Scale_Factor> <!-- 0.14 -->
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+			<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>1</Min_Speed>
+		<Max_Rate_Of_Turn>1.83</Max_Rate_Of_Turn>
+		<Max_Lift>2.5</Max_Lift>
+		<Max_Thrust>0.6</Max_Thrust>
+		<Max_Rate_Of_Roll>3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>No</Fires_Forward>
+
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Shield_Points>100</Shield_Points>
+		<Tactical_Health>32</Tactical_Health>
+		<Shield_Refresh_Rate>33</Shield_Refresh_Rate>
+		<Energy_Capacity>999</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Ship_Class>fighter</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>25</Number_per_Squadron>
+		<Build_Cost_Credits>100</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Size_Value>4</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, REVEAL, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN </SpaceBehavior>
+			
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>7</Damage>
+
+		<Fires_Forward>No</Fires_Forward>
+
+		<HardPoints>
+			New_HP_TIE_Defender, 
+			New_HP_TIE_Defender_T_01,
+			New_HP_TIE_Defender_M_01,
+			New_HP_TIE_Defender_I_01,
+			New_HP_TIE_Defender_I_01_IO
+		</HardPoints>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>1250.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1250.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space_Fighter_Blue</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Select> Unit_Select_Tie_Defender </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Tie_Defender </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Defender</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Tie_Defender </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Tie_Defender </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Tie_Defender </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Tie_Defender </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>  
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Tie_Defender </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Tie_Defender </SFXEvent_Attack_Hardpoint>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>    
+
+		<CategoryMask> Fighter | AntiBomber | AntiFighter </CategoryMask>
+
+		<Property_Flags> SmallShip </Property_Flags>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.015  0.015</Radar_Icon_Size>
+
+		<Custom_Footprint_Radius> 5.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>0</AI_Combat_Power>
+		<Targeting_Priority_Set>frigate</Targeting_Priority_Set>
+
+		<Spin_Away_On_Death>No</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.85</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>4.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Fighter_Blue</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>	
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>9999999.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ionpulse_Missile_Small</Projectile_Types_Override>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+	   </Unit_Abilities_Data>
+
+
+	</SpaceUnit>
+
+
+	
+	<SpaceUnit Name="TIE_Defender_Gold">
+		<Variant_Of_Existing_Type>TIE_Defender</Variant_Of_Existing_Type>
+		<Space_Model_Name>Empire_TIE_Defender_Gold_2.ALO</Space_Model_Name>
+	</SpaceUnit>
+
+
+
+<!-- **** SQUADRON INFORMATION **** -->
+
+
+	<Squadron Name="TIE_Defender_Squadron">
+		<Text_ID>TEXT_TIE_DEFENDER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_DESCRIPTION2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_FEATURES2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_STATS2
+		</Encyclopedia_Text>
+		
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_TIE_DEFENDER.TGA</Icon_Name>
+
+				<Max_Squad_Size> 25 </Max_Squad_Size>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>400</Autoresolve_Health>
+		<Damage>50</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>4</Tech_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+		<Squadron_Units>TIE_Defender, TIE_Defender, TIE_Defender, TIE_Defender, TIE_Defender</Squadron_Units>
+		<AI_Combat_Power>10</AI_Combat_Power>
+
+		<Squadron_Offsets>90.0,-300.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>90.0,300.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,100.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,-100.0</Squadron_Offsets>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Defender</SFXEvent_Build_Complete>
+
+		<FormationOrder>3</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>75.0</Squadron_Formation_Error_Tolerance> <!-- 75 -->
+		<Guard_Chase_Range>1500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1500.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Autonomous_Move_Extension_Vs_Attacker>1500.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+
+		<Tactical_Bribe_Cost>800</Tactical_Bribe_Cost>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>4</Population_Value>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+	   </Unit_Abilities_Data>
+
+				<Create_Team_Type>TIE_Defender_Squadron_Container </Create_Team_Type>
+	</Squadron>
+
+	
+	<Container Name="TIE_Defender_Squadron_Container">
+		<Text_ID>TEXT_TIE_DEFENDER_SQUADRON</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_DESCRIPTION2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_FEATURES2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_STATS2
+		</Encyclopedia_Text>
+
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_TIE_DEFENDER.TGA</Icon_Name>
+
+		<Show_Name>No</Show_Name>
+
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>1600</Autoresolve_Health>
+		<Damage>50</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>5</Tech_Level>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>0.5</Hyperspace_Speed>
+		
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+		
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	 			
+		<CategoryMask> Fighter | AntiBomber | AntiFighter </CategoryMask>
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>75.0</Squadron_Formation_Error_Tolerance> <!-- 75 -->
+		<Guard_Chase_Range>1500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1500.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+		<Squadron_Offsets>90.0,-300.0,0.0</Squadron_Offsets>
+  		<Squadron_Offsets>90.0,300.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,100.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,-100.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>9999999.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>TIE_Defender_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ionpulse_Missile_Small</Projectile_Types_Override>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+			
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="TIE_Defender_Container_Ion_Cannon_Shot">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+
+        </Abilities>
+
+	<SFXEvent_Select>SFX_NA</SFXEvent_Select>
+	</Container>
+
+
+	<Squadron Name="TIE_Defender_Squadron_Gold">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+		<Tech_Level>99</Tech_Level>
+
+		<Squadron_Units>TIE_Defender_Gold, TIE_Defender_Gold, TIE_Defender_Gold, TIE_Defender_Gold, TIE_Defender_Gold</Squadron_Units>
+	</Squadron>
+
+	<SpaceUnit Name="TIE_Defender_Elite">
+		<Variant_Of_Existing_Type>TIE_Defender</Variant_Of_Existing_Type>
+		
+		<Text_ID>TEXT_UNIT_TIE_DEFENDER_ELITE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_ELITENORMAL </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER2_ELITE
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_DESCRIPTION2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_FEATURES2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_STATS2_ELITE
+		</Encyclopedia_Text>
+		
+		<Space_Model_Name>Empire_TIE_Defender_Red_2.ALO</Space_Model_Name>
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_TIE_DEFENDER_ELITE.TGA</Icon_Name>
+
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>1</Min_Speed>
+		<Max_Rate_Of_Turn>2.25</Max_Rate_Of_Turn>	<!-- 1.83 -->
+		<Max_Lift>2.25</Max_Lift>					<!-- 1.83 -->
+		<Max_Rate_Of_Roll>2.76</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		
+		<Shield_Points>100</Shield_Points>				<!-- 100 -->
+		<Tactical_Health>64</Tactical_Health>			<!-- 32 -->
+		<Shield_Refresh_Rate>33</Shield_Refresh_Rate>	<!-- 33 -->
+		<Number_per_Squadron>50</Number_per_Squadron>
+
+		<Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+
+		<HardPoints>
+			New_HP_TIE_Defender_Elite,
+			New_HP_TIE_Defender_T_01,
+			New_HP_TIE_Defender_M_01_Elite,
+			New_HP_TIE_Defender_I_01,
+			New_HP_TIE_Defender_I_01_IO
+		</HardPoints>
+		
+		<SFXEvent_Select> Unit_Select_Tie_Defender_Elite </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Tie_Defender_Elite </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Defender_Elite</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Move_Tie_Defender_Elite </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Tie_Defender_Elite </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Move_Tie_Defender_Elite </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Tie_Defender_Elite </SFXEvent_Attack_Hardpoint>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>9999999.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ionpulse_Missile_Small</Projectile_Types_Override>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.5</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+
+	<Squadron Name="TIE_Defender_Squadron_Elite">
+		<Variant_Of_Existing_Type>TIE_Defender_Squadron</Variant_Of_Existing_Type>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Text_ID>TEXT_TIE_DEFENDER_SQUADRON_ELITE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_ELITENORMAL </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER2_ELITE
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_DESCRIPTION2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_FEATURES2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_STATS2_ELITE
+		</Encyclopedia_Text>
+
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+
+		     	<Max_Squad_Size> 25 </Max_Squad_Size>
+
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_TIE_DEFENDER_ELITE.TGA</Icon_Name>
+		
+		<Build_Cost_Credits>3500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level>4</Tech_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Special_Structures>E_Uplink_Command</Required_Special_Structures>
+
+		<Squadron_Units> TIE_Defender_Elite, TIE_Defender_Elite, TIE_Defender_Elite, TIE_Defender_Elite, TIE_Defender_Elite </Squadron_Units>
+		<Squadron_Units> TIE_Defender_Elite, TIE_Defender_Elite, TIE_Defender_Elite, TIE_Defender_Elite </Squadron_Units>
+		<AI_Combat_Power>25</AI_Combat_Power>
+
+		<Squadron_Offsets>90.0,-300.0,-30.0</Squadron_Offsets>
+		<Squadron_Offsets>90.0,-300.0,30.0</Squadron_Offsets>
+  		<Squadron_Offsets>90.0,300.0,-30.0</Squadron_Offsets>
+  		<Squadron_Offsets>90.0,300.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,100.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,-100.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,0.0</Squadron_Offsets>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>75.0</Squadron_Formation_Error_Tolerance> <!-- 1250 -->
+		<Guard_Chase_Range>1500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1500.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Autonomous_Move_Extension_Vs_Attacker>1500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+		<Population_Value>10</Population_Value>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Defender_Elite</SFXEvent_Build_Complete>
+
+		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>9999999.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ionpulse_Missile_Small</Projectile_Types_Override>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.5</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+				<Create_Team_Type>TIE_Defender_Squadron_Elite_Container </Create_Team_Type>
+	</Squadron>
+
+	
+	<Container Name="TIE_Defender_Squadron_Elite_Container">
+		<Text_ID>TEXT_TIE_DEFENDER_SQUADRON_ELITE</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_ELITENORMAL </Encyclopedia_Unit_Class>
+
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER2_ELITE
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_DESCRIPTION2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_FEATURES2
+		TEXT_LINE
+		TEXT_TOOLTIP_STARFIGHTER_TIE_DEFENDER_STATS2_ELITE
+		</Encyclopedia_Text>
+
+		<Show_Name>No</Show_Name>
+
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_TIE_DEFENDER_ELITE.TGA</Icon_Name>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>1600</Autoresolve_Health>
+		<Damage>50</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Tech_Level>5</Tech_Level>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>0.5</Hyperspace_Speed>
+		
+		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
+		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
+	
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+		
+		<Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+		<MovementClass>Space</MovementClass>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+	 			
+		<CategoryMask> Fighter | AntiBomber | AntiFighter </CategoryMask>
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>75.0</Squadron_Formation_Error_Tolerance> <!-- 1250 -->
+		<Guard_Chase_Range>1500.0</Guard_Chase_Range>
+		<Idle_Chase_Range>1500.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>1500.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>1500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+		
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+		<Squadron_Offsets>90.0,-300.0,-30.0</Squadron_Offsets>
+		<Squadron_Offsets>90.0,-300.0,30.0</Squadron_Offsets>
+  		<Squadron_Offsets>90.0,300.0,-30.0</Squadron_Offsets>
+  		<Squadron_Offsets>90.0,300.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,100.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,-100.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,0.0,0.0</Squadron_Offsets>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>9999999.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>TIE_Defender_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ionpulse_Missile_Small</Projectile_Types_Override>
+				<Supports_Autofire>False</Supports_Autofire>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>ROCKET_ATTACK</Type>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ION_OVERCHARGE_DESCRIPTION</Alternate_Description_Text>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.50f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 1.5</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_STRIKE_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_STRIKE_DESCRIPTION</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_strike.tga</Alternate_Icon_Name>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+			
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="TIE_Defender_Container_Ion_Cannon_Shot">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+
+        </Abilities>
+
+	<SFXEvent_Select>SFX_NA</SFXEvent_Select>
+	</Container>
+
+
+</TIE_Defender_Files>

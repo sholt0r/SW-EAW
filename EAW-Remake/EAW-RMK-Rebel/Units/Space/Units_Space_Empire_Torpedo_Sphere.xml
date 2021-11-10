@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpaceUnitsCapital>
+
+
+	<SpaceUnit Name="Torpedo_Sphere">
+		<Moniker>Empire_Star_Destroyer_Allegiance.txt</Moniker>
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+		<Text_ID>TEXT_UNIT_TORPEDO_SPHERE</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>Empire_Torpedo_Sphere.alo</Space_Model_Name>
+		<Scale_Factor>1</Scale_Factor>
+
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Ranking_In_Category>5</Ranking_In_Category>
+	
+	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Select_Box_Scale>1</Select_Box_Scale>
+		<Select_Box_Z_Adjust>0</Select_Box_Z_Adjust>
+
+		<Mass>0.999</Mass>
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Armor_Type> Armor_Default </Armor_Type>
+		<Shield_Armor_Type>Shield_Default</Shield_Armor_Type>
+
+		<Max_Speed>3</Max_Speed>
+		<Max_Rate_Of_Turn>0.075</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.025</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<OverrideAcceleration> 0.035 </OverrideAcceleration>
+		<OverrideDeceleration> 0.035 </OverrideDeceleration>
+		
+		<Max_Thrust>0.05</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.4</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>4</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Damage>70</Damage>
+		<Autoresolve_Health>12000</Autoresolve_Health>
+		<Shield_Points>20000</Shield_Points>
+		<Tactical_Health>50000</Tactical_Health>
+		<Shield_Refresh_Rate>400</Shield_Refresh_Rate>
+		<Energy_Capacity>15000</Energy_Capacity>
+		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+		<Ship_Class>capital</Ship_Class>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		<Political_Control>1</Political_Control>
+		<Political_Faction>Empire</Political_Faction>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Build_Cost_Credits>100000</Build_Cost_Credits>
+		<Piracy_Value_Credits>250</Piracy_Value_Credits>
+		<AI_Combat_Power>1600</AI_Combat_Power>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Space_FOW_Reveal_Range>8000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>9900.0</Targeting_Max_Attack_Distance>
+
+			<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
+
+			<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 0</Reserve_Spawned_Units_Tech_0> 
+			<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints>
+TorSph_01, TorSph_02, TorSph_03, TorSph_04, TorSph_05, TorSph_06, TorSph_07, TorSph_08, TorSph_09, TorSph_10, 
+TorSph_11, TorSph_12, TorSph_13, TorSph_14, TorSph_15, TorSph_16, TorSph_17, TorSph_18, TorSph_19, TorSph_20, 
+TorSph_21, TorSph_22, TorSph_23, TorSph_24, TorSph_25, TorSph_26, TorSph_27, TorSph_28, TorSph_29, TorSph_30, 
+TorSph_31, TorSph_32, TorSph_33, TorSph_34, TorSph_35, TorSph_36, TorSph_37, TorSph_38, TorSph_39, TorSph_40, 
+TorSph_42, TorSph_43, TorSph_44, TorSph_45, TorSph_46, TorSph_47, TorSph_48, TorSph_49, TorSph_50, 
+TorSph_51, TorSph_52, TorSph_53, TorSph_54, TorSph_55, TorSph_56, TorSph_57, TorSph_58, TorSph_59, TorSph_60, 
+TorSph_61, TorSph_62, TorSph_63, TorSph_64, TorSph_65, TorSph_66, TorSph_67, TorSph_68, TorSph_69, TorSph_70,
+TorSph_71, TorSph_72, TorSph_73, TorSph_74, TorSph_75, TorSph_76, TorSph_77, TorSph_78, TorSph_79, TorSph_80, 
+TorSph_81, TorSph_82, TorSph_83, TorSph_84, TorSph_85, TorSph_86, TorSph_87, TorSph_88, TorSph_89, TorSph_90, 
+TorSph_91, TorSph_92, TorSph_93, TorSph_94, TorSph_95, TorSph_96, TorSph_97, TorSph_98, TorSph_99, TorSph_100,
+TorSph_101, TorSph_102, TorSph_103, TorSph_104, TorSph_105, TorSph_106, TorSph_107, TorSph_108, TorSph_109, TorSph_110, 
+TorSph_111, TorSph_112, TorSph_113, TorSph_115, TorSph_116, TorSph_117, TorSph_118, TorSph_119, TorSph_120, 
+TorSph_121, TorSph_122, TorSph_123, TorSph_124, TorSph_125, TorSph_126, TorSph_127, TorSph_128, TorSph_129, TorSph_130, 
+TorSph_131, TorSph_132, TorSph_133, TorSph_134, TorSph_135, TorSph_136, TorSph_137, TorSph_138, TorSph_139, TorSph_140, 
+TorSph_141, TorSph_142, TorSph_143, TorSph_144, TorSph_145, TorSph_146, TorSph_149, TorSph_150, 
+TorSph_151, TorSph_152, TorSph_153, TorSph_154, TorSph_155, TorSph_156, TorSph_157, TorSph_158, TorSph_159, TorSph_160, 
+TorSph_161, TorSph_162, TorSph_163, TorSph_164, TorSph_165, TorSph_166, TorSph_167, TorSph_168, TorSph_169, TorSph_170,
+TorSph_171, TorSph_172, TorSph_175, TorSph_176, TorSph_177, TorSph_178, TorSph_179, TorSph_180, 
+TorSph_181, TorSph_182, TorSph_183, TorSph_184, TorSph_185, TorSph_186, TorSph_187, TorSph_188,
+TorSph_H_01, TorSph_H_02, TorSph_H_03, TorSph_H_04, TorSph_H_05, TorSph_H_06, TorSph_H_07, TorSph_H_08, 
+TorSph_LC_01, TorSph_LC_02, TorSph_LC_03, TorSph_LC_04, TorSph_LC_05, TorSph_LC_06, 
+TorSph_TL_01, TorSph_TL_02, TorSph_TL_03, TorSph_TL_04, 
+TorSph_SG_01, TorSph_SG_02,
+TorSph_EN_01
+		</HardPoints>
+
+		<Death_Explosions>Large_Explosion_Space_Empire_pd_medium_3_1250</Death_Explosions>
+		<Death_Clone></Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Population_Value>50</Population_Value>
+
+		<SFXEvent_Select>Unit_Select_Torpedo_Sphere</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Torpedo_Sphere</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Torpedo_Sphere</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Torpedo_Sphere</SFXEvent_Attack>
+		<SFXEvent_Guard></SFXEvent_Guard>
+		<SFXEvent_Move_Opposite></SFXEvent_Move_Opposite>
+		<SFXEvent_Barrage></SFXEvent_Barrage>
+		<SFXEvent_Stop></SFXEvent_Stop>
+		<SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula>  </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid>  </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Torpedo_Sphere </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, SFX_NA </SFXEvent_Hardpoint_Destroyed>
+
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+         
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Torpedo_Sphere</SFXEvent_Build_Complete>
+
+		
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Allegiance_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Allegiance_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Allegiance_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Capital | AntiCapital </CategoryMask>
+		<Icon_Name>I_BUTTON_UNIT_EMPIRE_TORPEDO_SPHERE.TGA</Icon_Name>
+		<GUI_Model_Name>Empire_Torpedo_Sphere.alo</GUI_Model_Name>
+		<GUI_Distance>2300</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		 
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+	</Unit_Abilities_Data>
+		
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_TORPEDO_SPHERE
+			TEXT_LINE 
+			TEXT_TOOLTIP_TORPEDO_SPHERE_STATS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+
+		
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>70000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>80</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+
+</SpaceUnitsCapital>

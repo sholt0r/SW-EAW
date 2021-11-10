@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<FunctionSet>
+	<AotR_Beginning_Assault>
+		<Goal>AotR_Beginning_Assault</Goal>
+		<Function>Should_Begin_First_Assault</Function>
+	</AotR_Beginning_Assault>
+
+	<AotR_Destroy_Unit>
+		<Goal>AotR_Destroy_Unit</Goal>
+		<Function>Unit_Needs_To_Be_Destroyed</Function>
+	</AotR_Destroy_Unit>
+
+	<AotR_Bomb_Unit>
+		<Goal>AotR_Bomb_Unit</Goal>
+		<Function>Unit_Needs_To_Be_Bombed</Function>
+	</AotR_Bomb_Unit>
+
+	<AotR_Reinforce_Units>
+		<Goal>AotR_Reinforce_Units</Goal>
+		<Function>Need_To_Reinforce_Fleet</Function>
+	</AotR_Reinforce_Units>
+
+	<Destroy_Unit>
+		<Goal>Destroy_Unit</Goal>
+		<Function>Zero</Function>
+	</Destroy_Unit>
+
+	<Destroy_Unit_Minimal>
+		<Goal>Destroy_Unit_Minimal</Goal>
+		<Function>Zero</Function>
+	</Destroy_Unit_Minimal>
+
+	<Disable_Unit>
+		<Goal>Disable_Unit</Goal>
+		<Function>Zero</Function>
+	</Disable_Unit>
+
+	<Bomb_Unit>
+		<Goal>Bomb_Unit</Goal>
+		<Function>Zero</Function>
+	</Bomb_Unit>
+
+	<Sweep_Area>
+		<Goal>Sweep_Area</Goal>
+		<Function>Zero</Function>
+	</Sweep_Area>
+  
+	<Space_Escort_Goal>
+		<Goal>Space_Escort_Goal</Goal>
+		<Function>Zero</Function>
+	</Space_Escort_Goal>
+	
+	<Hide_Transports>
+		<Goal>Hide_Transports</Goal>
+		<Function>Zero</Function>
+	</Hide_Transports>
+
+	<Hide_Surprise_Units>
+		<Goal>Hide_Surprise_Units</Goal>
+		<Function>Zero</Function>
+	</Hide_Surprise_Units>
+
+	<Return_To_Base>
+		<Goal>Return_To_Base</Goal>
+		<Function>Zero</Function>
+	</Return_To_Base>
+
+	<Patrol_Structure_Space>
+		<Goal>Patrol_Structure_Space</Goal>
+		<Function>Zero</Function>
+	</Patrol_Structure_Space>
+
+	<Debug_Goal_Space>
+		<Goal>Debug_Goal_Space</Goal>
+		<Function>Zero</Function>
+	</Debug_Goal_Space>
+
+	<Space_Retreat>
+		<Goal>Space_Retreat</Goal>
+		<Function>Should_Retreat_From_Space</Function>
+	</Space_Retreat>
+
+	<Fire_Death_Star>
+		<Goal>Fire_Death_Star</Goal>
+		<Function>ReallyBig</Function>
+	</Fire_Death_Star>
+
+	<Turbo_Attack_Location>
+		<Goal>Turbo_Attack_Location</Goal>
+		<Function>Zero</Function>
+	</Turbo_Attack_Location>
+
+	<Turbo_Attack_Unit>
+		<Goal>Turbo_Attack_Unit</Goal>
+		<Function>Zero</Function>
+	</Turbo_Attack_Unit>
+
+	<Space_Artillery>
+		<Goal>Space_Artillery</Goal>
+		<Function>Zero</Function>
+	</Space_Artillery>
+
+	<Burn_Units_Space>
+		<Goal>Burn_Units_Space</Goal>
+		<Function>Zero</Function>
+	</Burn_Units_Space>
+
+	<Skirmish_Generate_Magic_Cash_Drop_Space>
+		<Goal>Skirmish_Generate_Magic_Cash_Drop_Space</Goal>
+		<Function>Skirmish_Needs_Magic_Cash_Drop_Space</Function>
+	</Skirmish_Generate_Magic_Cash_Drop_Space>
+
+</FunctionSet>

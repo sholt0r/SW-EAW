@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Story_Mode_Plots>
+	<Lua_Script />
+	<Active_Plot>STORY_SANDBOX_REBEL_NORTH.XML</Active_Plot>
+	
+    <Lua_Script>Unit_Filter_Rebel</Lua_Script>
+    <Active_Plot>Filter_Rebel.xml</Active_Plot>
+</Story_Mode_Plots>

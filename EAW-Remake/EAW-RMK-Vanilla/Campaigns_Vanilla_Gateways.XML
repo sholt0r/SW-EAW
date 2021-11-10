@@ -1,0 +1,1134 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+
+<!-- ************************************************************** -->
+<!-- **************** SANDBOX CAMPAIGN "Gateways" ***************** -->
+<!-- ************************************************************** -->
+
+
+	<Campaign Name="Sandbox_Gateways_Underworld">
+
+		<Campaign_Set> Sandbox_Gateways_Underworld </Campaign_Set>
+		<Sort_Order>11</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_27 </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27 </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Vanilla_Abregado_Rae, 
+				Vanilla_AlzocIII, 
+				Vanilla_Anaxes, 
+				Vanilla_Bespin,
+				Vanilla_Bothawui, 
+				Vanilla_Byss, 
+				Vanilla_Carida, 
+				Vanilla_Coruscant, 
+				Vanilla_Dathomir, 
+				Vanilla_Felucia,
+				Vanilla_Honoghr, 
+				Vanilla_Hoth,
+				Vanilla_Jabiim, 
+				Vanilla_Korriban, 
+				Vanilla_Kuat, 
+				Vanilla_Mandalore, 
+				Vanilla_Mustafar, 
+				Vanilla_Muunilinst, 
+				Vanilla_Myrkr, 
+				Vanilla_Naboo, 
+				Vanilla_Polus, 
+				Vanilla_Saleucami, 
+				Vanilla_Tatooine,
+				Vanilla_Thyferra, 
+				Vanilla_Utapau, 
+				Vanilla_VergessoAsteroids, 
+				Vanilla_Wayland
+		</Locations>
+
+        <Trade_Routes>
+			GWLine_1,
+			GWLine_2,
+			GWLine_3,
+			GWLine_4,
+			GWLine_5,
+			GWLine_6,
+			GWLine_7,
+			GWLine_8,
+			GWLine_9,
+			GWLine_10,
+			GWLine_11,
+			GWLine_12,
+			GWLine_13,
+			GWLine_14,
+			GWLine_15,
+			GWLine_16,
+			GWLine_17,
+			GWLine_18,
+			GWLine_19,
+			GWLine_20,
+			GWLine_21,
+			GWLine_22,
+			GWLine_23,
+			GWLine_24,
+			GWLine_25,
+			GWLine_26,
+			GWLine_27,
+			GWLine_28,
+			GWLine_29,
+			GWLine_30,
+			GWLine_31,
+			GWLine_32,
+			GWLine_33,
+			GWLine_34,
+			GWLine_35,
+			GWLine_36,
+			GWLine_37,
+			GWLine_38,
+			GWLine_39,
+			GWLine_40
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Vanilla_Hoth </Home_Location>
+        <Home_Location> Empire, Vanilla_Thyferra </Home_Location>
+        <Home_Location> Underworld, Vanilla_Wayland </Home_Location>
+
+        <Starting_Active_Player> Underworld </Starting_Active_Player>
+
+		<Rebel_Story_Name>STORY_PLOTS_REBEL_AI_Vanilla.xml</Rebel_Story_Name>
+        <Empire_Story_Name>STORY_PLOTS_EMPIRE_AI_Vanilla.xml</Empire_Story_Name>
+        <Underworld_Story_Name>STORY_PLOTS_SANDBOX_Criminals_Vanilla.xml</Underworld_Story_Name>
+        
+        <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+                                                     
+        <!-- Hoth Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Corellian_Corvette </Starting_Forces>
+        <!-- Hoth Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Calamari_Cruiser_Wingless </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Y-Wing_Squadron </Starting_Forces>
+		
+		<!-- Bespin Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bespin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Corellian_Corvette </Starting_Forces>
+        <!-- Bespin Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bespin, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Alliance_Assault_Frigate </Starting_Forces>
+        
+        <!-- Mustafar Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Rebel_X-Wing_Squadron </Starting_Forces>
+        <!-- Mustafar Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- VergessoAsteroids Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Corellian_Corvette </Starting_Forces>
+        
+        <!-- Naboo Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Y-Wing_Squadron </Starting_Forces>
+        <!-- Naboo Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Utapau Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Utapau, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Y-Wing_Squadron </Starting_Forces>
+        <!-- Utapau Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Utapau, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Tatooine Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Y-Wing_Squadron </Starting_Forces>
+        <!-- Tatooine Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Nebulon_B_Frigate </Starting_Forces>
+        
+        <!-- Mandalore Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Bothawui Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Corellian_Corvette </Starting_Forces>
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Y-Wing_Squadron </Starting_Forces>
+		
+
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+        <!-- Thyferra Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Thyferra, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Acclamator_Assault_Ship_I_E </Starting_Forces>		
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Thyferra, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Vindicator_Star_Destroyer </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Polus, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Polus, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Polus, Tartan_Patrol_Cruiser </Starting_Forces>
+        
+        <!-- Jabiim Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Jabiim, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Jabiim Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Jabiim, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+
+        
+        <!-- AlzocIII Space Forces -->
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- AlzocIII Land Forces -->
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Abregado_Rae Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Carida Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Carida, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Carida, Jedi_Cruiser_Empire </Starting_Forces>
+        
+        <!-- Anaxes Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Anaxes, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Anaxes Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Anaxes, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Vigil_Corvette </Starting_Forces>
+        
+        <!-- Coruscant Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Coruscant, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Coruscant, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Immobilizer_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Byss Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Byss, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Byss Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Byss, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Vindicator_Star_Destroyer </Starting_Forces>
+		
+
+		<!-- Underworld Starting Forces -->
+
+		<Starting_Credits> Underworld,  12000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+
+        <!-- Wayland Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Wayland, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Trireme_Gunship </Starting_Forces>
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Wayland, Recusant_II_Destroyer </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Saboath_Destroyer </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Kuat, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Interceptor5_Frigate </Starting_Forces>
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Kuat, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Skipray_Squadron </Starting_Forces>
+        
+        <!-- Felucia Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Felucia, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Felucia Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Felucia, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Interceptor4_Frigate </Starting_Forces>
+        
+        <!-- Myrkr Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Trireme_Gunship </Starting_Forces>
+        
+        <!-- Dathomir Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Interceptor5_Frigate </Starting_Forces>
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Hammerhead_B_Frigate</Starting_Forces>
+        
+        <!-- Muunilinst Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Trireme_Gunship </Starting_Forces>
+        
+        <!-- Korriban Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Korriban, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Korriban, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Korriban, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+        <!-- Korriban Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Korriban, Skipray_Squadron</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Korriban, Skipray_Squadron </Starting_Forces>
+        
+        <!-- Saleucami Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Trireme_Gunship </Starting_Forces>
+        <!-- Saleucami Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Hammerhead_B_Frigate</Starting_Forces>
+        
+        <!-- Honoghr Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+
+    </Campaign>
+
+
+	<Campaign Name="Sandbox_Gateways_Rebel">
+
+		<Campaign_Set> Sandbox_Gateways_Underworld </Campaign_Set>
+		<Sort_Order>11</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_27 </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27 </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Vanilla_Abregado_Rae, 
+				Vanilla_AlzocIII, 
+				Vanilla_Anaxes, 
+				Vanilla_Bespin,
+				Vanilla_Bothawui, 
+				Vanilla_Byss, 
+				Vanilla_Carida, 
+				Vanilla_Coruscant, 
+				Vanilla_Dathomir, 
+				Vanilla_Felucia,
+				Vanilla_Honoghr, 
+				Vanilla_Hoth,
+				Vanilla_Jabiim, 
+				Vanilla_Korriban, 
+				Vanilla_Kuat, 
+				Vanilla_Mandalore, 
+				Vanilla_Mustafar, 
+				Vanilla_Muunilinst, 
+				Vanilla_Myrkr, 
+				Vanilla_Naboo, 
+				Vanilla_Polus, 
+				Vanilla_Saleucami, 
+				Vanilla_Tatooine,
+				Vanilla_Thyferra, 
+				Vanilla_Utapau, 
+				Vanilla_VergessoAsteroids, 
+				Vanilla_Wayland
+		</Locations>
+
+        <Trade_Routes>
+			GWLine_1,
+			GWLine_2,
+			GWLine_3,
+			GWLine_4,
+			GWLine_5,
+			GWLine_6,
+			GWLine_7,
+			GWLine_8,
+			GWLine_9,
+			GWLine_10,
+			GWLine_11,
+			GWLine_12,
+			GWLine_13,
+			GWLine_14,
+			GWLine_15,
+			GWLine_16,
+			GWLine_17,
+			GWLine_18,
+			GWLine_19,
+			GWLine_20,
+			GWLine_21,
+			GWLine_22,
+			GWLine_23,
+			GWLine_24,
+			GWLine_25,
+			GWLine_26,
+			GWLine_27,
+			GWLine_28,
+			GWLine_29,
+			GWLine_30,
+			GWLine_31,
+			GWLine_32,
+			GWLine_33,
+			GWLine_34,
+			GWLine_35,
+			GWLine_36,
+			GWLine_37,
+			GWLine_38,
+			GWLine_39,
+			GWLine_40
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Vanilla_Hoth </Home_Location>
+        <Home_Location> Empire, Vanilla_Thyferra </Home_Location>
+        <Home_Location> Underworld, Vanilla_Wayland </Home_Location>
+
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>STORY_PLOTS_SANDBOX_REBEL_Vanilla.xml</Rebel_Story_Name>
+        <Empire_Story_Name>STORY_PLOTS_EMPIRE_AI_Vanilla.xml</Empire_Story_Name>
+        <Underworld_Story_Name>Story_Plots_Underworld_AI_Heroes_Vanilla.xml</Underworld_Story_Name>
+        
+        <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Underworld, AI_Player_Underworld </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+				
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  12000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+        <!-- Hoth Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Corellian_Corvette </Starting_Forces>
+        <!-- Hoth Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Calamari_Cruiser_Wingless </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Y-Wing_Squadron </Starting_Forces>
+		
+		<!-- Bespin Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bespin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Corellian_Corvette </Starting_Forces>
+        <!-- Bespin Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bespin, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Alliance_Assault_Frigate </Starting_Forces>
+        
+        <!-- Mustafar Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Rebel_X-Wing_Squadron </Starting_Forces>
+        <!-- Mustafar Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- VergessoAsteroids Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Corellian_Corvette </Starting_Forces>
+        
+        <!-- Naboo Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Y-Wing_Squadron </Starting_Forces>
+        <!-- Naboo Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Naboo, R_Ground_Officer_Academy </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Field_Com_Rebel_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Utapau Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Utapau, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Y-Wing_Squadron </Starting_Forces>
+        <!-- Utapau Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Utapau, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Tatooine Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Y-Wing_Squadron </Starting_Forces>
+        <!-- Tatooine Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Tatooine, R_Ground_Turbolaser_Tower </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Nebulon_B_Frigate </Starting_Forces>
+        
+        <!-- Mandalore Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Bothawui Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Corellian_Corvette </Starting_Forces>
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bothawui, R_Ground_Turbolaser_Tower </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Y-Wing_Squadron </Starting_Forces>
+		
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+		
+        <!-- Thyferra Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Thyferra, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Acclamator_Assault_Ship_I_E </Starting_Forces>		
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Thyferra, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Vindicator_Star_Destroyer </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Polus, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Polus, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Polus, Tartan_Patrol_Cruiser </Starting_Forces>
+        
+        <!-- Jabiim Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Jabiim, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Jabiim Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Jabiim, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+
+        
+        <!-- AlzocIII Space Forces -->
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- AlzocIII Land Forces -->
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Abregado_Rae Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Carida Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Carida, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Carida, Jedi_Cruiser_Empire </Starting_Forces>
+        
+        <!-- Anaxes Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Anaxes, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Anaxes Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Anaxes, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Vigil_Corvette </Starting_Forces>
+        
+        <!-- Coruscant Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Coruscant, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Coruscant, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Immobilizer_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Byss Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Byss, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Byss Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Byss, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Vindicator_Star_Destroyer </Starting_Forces>
+		
+
+		<!-- Underworld Starting Forces -->
+
+		<Starting_Credits> Underworld,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+
+        <!-- Wayland Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Wayland, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Trireme_Gunship </Starting_Forces>
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Wayland, Recusant_II_Destroyer </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Saboath_Destroyer </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Kuat, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Interceptor5_Frigate </Starting_Forces>
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Kuat, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Skipray_Squadron </Starting_Forces>
+        
+        <!-- Felucia Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Felucia, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Felucia Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Felucia, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Interceptor4_Frigate </Starting_Forces>
+        
+        <!-- Myrkr Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Trireme_Gunship </Starting_Forces>
+        
+        <!-- Dathomir Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Interceptor5_Frigate </Starting_Forces>
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Hammerhead_B_Frigate</Starting_Forces>
+        
+        <!-- Muunilinst Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Trireme_Gunship </Starting_Forces>
+        
+        <!-- Korriban Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Korriban, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+        <!-- Korriban Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Korriban, Skipray_Squadron</Starting_Forces>
+        
+        <!-- Saleucami Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Trireme_Gunship </Starting_Forces>
+        <!-- Saleucami Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Hammerhead_B_Frigate</Starting_Forces>
+        
+        <!-- Honoghr Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+
+    </Campaign>
+
+
+	<Campaign Name="Sandbox_Gateways_Empire">
+
+		<Campaign_Set> Sandbox_Gateways_Underworld </Campaign_Set>
+		<Sort_Order>11</Sort_Order>
+
+        <Text_ID> TEXT_CAMPAIGN_SINGLE_27 </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_27 </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+				Vanilla_Abregado_Rae, 
+				Vanilla_AlzocIII, 
+				Vanilla_Anaxes, 
+				Vanilla_Bespin,
+				Vanilla_Bothawui, 
+				Vanilla_Byss, 
+				Vanilla_Carida, 
+				Vanilla_Coruscant, 
+				Vanilla_Dathomir, 
+				Vanilla_Felucia,
+				Vanilla_Honoghr, 
+				Vanilla_Hoth,
+				Vanilla_Jabiim, 
+				Vanilla_Korriban, 
+				Vanilla_Kuat, 
+				Vanilla_Mandalore, 
+				Vanilla_Mustafar, 
+				Vanilla_Muunilinst, 
+				Vanilla_Myrkr, 
+				Vanilla_Naboo, 
+				Vanilla_Polus, 
+				Vanilla_Saleucami, 
+				Vanilla_Tatooine,
+				Vanilla_Thyferra, 
+				Vanilla_Utapau, 
+				Vanilla_VergessoAsteroids, 
+				Vanilla_Wayland
+		</Locations>
+
+        <Trade_Routes>
+			GWLine_1,
+			GWLine_2,
+			GWLine_3,
+			GWLine_4,
+			GWLine_5,
+			GWLine_6,
+			GWLine_7,
+			GWLine_8,
+			GWLine_9,
+			GWLine_10,
+			GWLine_11,
+			GWLine_12,
+			GWLine_13,
+			GWLine_14,
+			GWLine_15,
+			GWLine_16,
+			GWLine_17,
+			GWLine_18,
+			GWLine_19,
+			GWLine_20,
+			GWLine_21,
+			GWLine_22,
+			GWLine_23,
+			GWLine_24,
+			GWLine_25,
+			GWLine_26,
+			GWLine_27,
+			GWLine_28,
+			GWLine_29,
+			GWLine_30,
+			GWLine_31,
+			GWLine_32,
+			GWLine_33,
+			GWLine_34,
+			GWLine_35,
+			GWLine_36,
+			GWLine_37,
+			GWLine_38,
+			GWLine_39,
+			GWLine_40
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Vanilla_Hoth </Home_Location>
+        <Home_Location> Empire, Vanilla_Thyferra </Home_Location>
+        <Home_Location> Underworld, Vanilla_Wayland </Home_Location>
+
+        <Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Rebel_Story_Name>STORY_PLOTS_REBEL_AI_Vanilla.xml</Rebel_Story_Name>
+        <Empire_Story_Name>STORY_PLOTS_SANDBOX_Empire_Vanilla.xml</Empire_Story_Name>
+        <Underworld_Story_Name>Story_Plots_Underworld_AI_Heroes_Vanilla.xml</Underworld_Story_Name>
+        
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Underworld, AI_Player_Underworld </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+
+		<!-- Rebel Starting Forces -->
+
+		<Starting_Credits> Rebel,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+                                                     
+        <!-- Hoth Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Corellian_Corvette </Starting_Forces>
+        <!-- Hoth Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Hoth, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Calamari_Cruiser_Wingless </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Hoth, Y-Wing_Squadron </Starting_Forces>
+		
+		<!-- Bespin Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bespin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Corellian_Corvette </Starting_Forces>
+        <!-- Bespin Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bespin, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bespin, Alliance_Assault_Frigate </Starting_Forces>
+        
+        <!-- Mustafar Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Rebel_X-Wing_Squadron </Starting_Forces>
+        <!-- Mustafar Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mustafar, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- VergessoAsteroids Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_VergessoAsteroids, Corellian_Corvette </Starting_Forces>
+        
+        <!-- Naboo Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Y-Wing_Squadron </Starting_Forces>
+        <!-- Naboo Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Naboo, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Naboo, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Utapau Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Utapau, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Y-Wing_Squadron </Starting_Forces>
+        <!-- Utapau Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Utapau, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Utapau, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Tatooine Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Y-Wing_Squadron </Starting_Forces>
+        <!-- Tatooine Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Tatooine, Nebulon_B_Frigate </Starting_Forces>
+        
+        <!-- Mandalore Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+        <!-- Mandalore Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Mandalore, Y-Wing_Squadron </Starting_Forces>
+        
+        <!-- Bothawui Space Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Corellian_Corvette </Starting_Forces>
+        <!-- Bothawui Land Forces -->
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Vanilla_Bothawui, Y-Wing_Squadron </Starting_Forces>
+		
+
+		<!-- Empire Starting Forces -->
+
+		<Starting_Credits> Empire,  12000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+        <!-- Thyferra Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Thyferra, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Acclamator_Assault_Ship_I_E </Starting_Forces>		
+        <!-- Thyferra Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Thyferra, E_Ground_Officer_Academy </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Field_Com_Empire_Team </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Thyferra, Vindicator_Star_Destroyer </Starting_Forces>
+		
+		<!-- Polus Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Polus, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Polus Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Polus, Empire_Ground_Mining_Facility </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Polus, Tartan_Patrol_Cruiser </Starting_Forces>
+        
+        <!-- Jabiim Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Jabiim, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Jabiim Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Jabiim, Empire_Ground_Mining_Facility </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Jabiim, Tartan_Patrol_Cruiser </Starting_Forces>
+        
+        <!-- AlzocIII Space Forces -->
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- AlzocIII Land Forces -->
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_AlzocIII, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Abregado_Rae Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Abregado_Rae Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Abregado_Rae, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Carida Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Carida Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Carida, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Carida, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Carida, Jedi_Cruiser_Empire </Starting_Forces>
+        
+        <!-- Anaxes Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Anaxes, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Acclamator_Assault_Ship_I_E </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Anaxes Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Anaxes, Gladiator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Anaxes, Vigil_Corvette </Starting_Forces>
+        
+        <!-- Coruscant Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Coruscant, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Acclamator_Assault_Ship_I_E </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Acclamator_Assault_Ship_I_E </Starting_Forces>
+        <!-- Coruscant Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Coruscant, E_Ground_Base_Shield </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vindicator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vindicator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Coruscant, Vindicator_Star_Destroyer </Starting_Forces>
+        
+        <!-- Byss Space Forces -->
+		<Starting_Forces> Empire, Vanilla_Byss, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Tartan_Patrol_Cruiser </Starting_Forces>
+        <!-- Byss Land Forces -->
+		<Starting_Forces> Empire, Vanilla_Byss, E_Ground_Turbolaser_Tower </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Vindicator_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Vanilla_Byss, Vindicator_Star_Destroyer </Starting_Forces>
+		
+
+		<!-- Underworld Starting Forces -->
+
+		<Starting_Credits> Underworld,  8000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 2 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+
+        <!-- Wayland Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Wayland, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Trireme_Gunship </Starting_Forces>
+        <!-- Wayland Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Wayland, Recusant_II_Destroyer </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Wayland, Saboath_Destroyer </Starting_Forces>
+		
+		<!-- Kuat Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Kuat, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Interceptor5_Frigate </Starting_Forces>
+        <!-- Kuat Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Kuat, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Kuat, Skipray_Squadron </Starting_Forces>
+        
+        <!-- Felucia Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Felucia, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Felucia Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Felucia, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Felucia, Interceptor4_Frigate </Starting_Forces>
+        
+        <!-- Myrkr Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+        <!-- Myrkr Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Myrkr, Trireme_Gunship </Starting_Forces>
+        
+        <!-- Dathomir Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Interceptor5_Frigate </Starting_Forces>
+        <!-- Dathomir Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Dathomir, Hammerhead_B_Frigate</Starting_Forces>
+        
+        <!-- Muunilinst Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Muunilinst Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Muunilinst, Trireme_Gunship </Starting_Forces>
+        
+        <!-- Korriban Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Korriban, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+        <!-- Korriban Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Korriban, Skipray_Squadron</Starting_Forces>
+        
+        <!-- Saleucami Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Trireme_Gunship </Starting_Forces>
+        <!-- Saleucami Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Saleucami, Hammerhead_B_Frigate</Starting_Forces>
+        
+        <!-- Honoghr Space Forces -->
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Underworld_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Interceptor4_Frigate </Starting_Forces>	
+        <!-- Honoghr Land Forces -->
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Hammerhead_B_Frigate</Starting_Forces>
+		<Starting_Forces> Underworld, Vanilla_Honoghr, Skipray_Squadron </Starting_Forces>
+
+    </Campaign>
+
+
+
+ </Campaigns>

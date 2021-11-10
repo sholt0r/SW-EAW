@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Booster_Gold_Files>
+
+
+	<UniqueUnit Name="Star_Destroyer_R_Errant_Venture">
+		<Variant_Of_Existing_Type>Star_Destroyer_No_Fighters</Variant_Of_Existing_Type>
+			<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+		<Text_ID>TEXT_UNIT_STAR_DESTROYER_ERRANT</Text_ID>
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_STAR_DESTROYER_II_ERRANT
+			TEXT_LINE 
+			TEXT_TOOLTIP_STAR_DESTROYER_II_INCOME
+			TEXT_LINE 
+			TEXT_TOOLTIP_STAR_DESTROYER_II_ERRANT_STATS
+		</Encyclopedia_Text>
+		<Icon_Name>I_Button_Booster_Terrik.tga</Icon_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<CategoryMask> SpaceHero | Capital | AntiFrigate | AntiCapital </CategoryMask>
+		<Is_Named_Hero>True</Is_Named_Hero>
+		<AI_Combat_Power>800</AI_Combat_Power>
+		
+		<Space_Model_Name>Empire_Imperial_SD_Errant_Venture.ALO</Space_Model_Name>
+		<Tech_Level>4</Tech_Level>
+		<Required_Planets>Kuat, Fondor, MonCalimari</Required_Planets>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>E_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>E_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Freighter_YT1300_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Freighter_YT1300_Squadron, 0</Reserve_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+	<HardPoints> 
+		HP_ISD_New_Facing,
+		HP_ISD_New_ISD2_Errant,
+		HP_ISD_IC_01,
+		HP_ISD_IC_02,
+		HP_ISD_IC_03,
+		HP_ISD_IC_04,
+		HP_ISD_IC_05,
+		HP_ISD_IC_06,
+		HP_ISD_New_TL_01,
+		HP_ISD_New_TL_02,
+		HP_ISD_New_TL_03,
+		HP_ISD_New_TL_04,
+		HP_ISD_New_TL_05,
+		HP_ISD_New_QIC_01,
+		HP_ISD_New_QIC_02,
+		HP_ISD_New_OTL_01,
+		HP_ISD_New_OTL_02,
+		HP_ISD_New_OTL_03,
+		HP_ISD_New_OTL_04,
+		HP_ISD_New_OTL_05,
+		HP_ISD_New_OTL_06,
+		HP_ISD_New_OTL_07,
+		HP_ISD_New_OTL_08,
+		HP_ISD_H_01, 
+		HP_ISD_New_S_01,
+		HP_ISD_Tractor_Beam
+	</HardPoints>
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Errant_Venture_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>0.55</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>1.0</Additional_Multiplier_On_Mining_Colonies>
+			</Planet_Income_Bonus_Ability>
+			
+			<Tractor_Beam_Attack_Ability Name="ISD_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+				<Excluded_Unit_Types>Buzz_Droids, Repair_Droids, Repair_Droids_E</Excluded_Unit_Types>
+				<Activation_Min_Range>5</Activation_Min_Range>
+	            <Activation_Max_Range>3000</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.75</Target_Speed_Decrease_Percent>
+				<Stacking_Category>90</Stacking_Category>			
+			</Tractor_Beam_Attack_Ability>
+		</Abilities>	
+		
+		<Tactical_Build_Prerequisites>Skirmish_Rebel_Star_Base_5</Tactical_Build_Prerequisites>
+	</UniqueUnit> 
+
+</Booster_Gold_Files>

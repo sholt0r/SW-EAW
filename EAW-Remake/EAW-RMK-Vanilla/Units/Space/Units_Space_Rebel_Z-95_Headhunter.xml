@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpaceUnitsCapital>
+
+	<Squadron Name="Z95_Headhunter_Squadron_R">
+		<Variant_Of_Existing_Type>Z95_Headhunter_Squadron</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
+	</Squadron>
+
+</SpaceUnitsCapital>

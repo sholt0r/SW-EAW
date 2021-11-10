@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<FunctionSet>
+    <!-- The Ion Cannon has a self-attachment script, but currently this custom goal 
+	is the best tactic -->
+    <Ground_To_Space_Damage>
+        <Goal>Ground_To_Space_Damage</Goal>
+        <Function>Needs_Ion_Shot</Function>
+    </Ground_To_Space_Damage>
+
+    <Ground_To_Space_Disable>
+        <Goal>Ground_To_Space_Disable</Goal>
+        <Function>Needs_Hypervelocity_Shot</Function>
+    </Ground_To_Space_Disable>
+
+    <Purchase_Space_Upgrades_Generic>
+        <Goal>Purchase_Space_Upgrades_Generic</Goal>
+        <Function>Need_To_Purchase_Upgrades_Space</Function>
+    </Purchase_Space_Upgrades_Generic>
+
+    <Skirmish_Upgrade_Space_Station>
+        <Goal>Skirmish_Upgrade_Space_Station</Goal>
+        <Function>Need_To_Upgrade_Space_Station</Function>
+    </Skirmish_Upgrade_Space_Station>
+</FunctionSet>

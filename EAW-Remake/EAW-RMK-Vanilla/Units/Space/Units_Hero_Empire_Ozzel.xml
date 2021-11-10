@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Piett_Data>
+
+	<!-- The Executor in it's most powerful and epic form. The mighty and unbeatable Admiral Ozzel in command who is the greatest military commander of all time! -->
+	<UniqueUnit Name="Ozzel_Executor">
+		<Variant_Of_Existing_Type>Executor_Star_Dreadnought_Template</Variant_Of_Existing_Type>
+
+		<Text_ID>TEXT_UNIT_SSD_EXECUTOR_OZZEL</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>
+		TEXT_TOOLTIP_EXECUTOR_OZZEL_DESCRIPTION
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_OZZEL_FEATURES
+		TEXT_LINE
+		TEXT_TOOLTIP_EXECUTOR_OZZEL_STATS
+		</Encyclopedia_Text>
+		<Icon_Name>i_button_admiral_ozzel.tga</Icon_Name>
+		
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<Population_Value>150</Population_Value>
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<CategoryMask> Capital | SpaceHero | AntiCapital </CategoryMask>
+        <Ranking_In_Category>3</Ranking_In_Category>
+
+		<AI_Combat_Power>5</AI_Combat_Power>
+		<Autoresolve_Health>10</Autoresolve_Health>
+		<Shield_Points>200</Shield_Points>		
+		<Tactical_Health>500</Tactical_Health>		
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+
+		<Tech_Level>99</Tech_Level>
+			
+			<Starting_Spawned_Units_Tech_0>TIE_Fighter, 10</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Fighter, 90</Reserve_Spawned_Units_Tech_0>
+		
+			<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 5</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 45</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 6</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 54</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints>
+		HP_Executor_Face,
+		HP_Executor_Shield_01, HP_Executor_Shield_02, HP_Executor_Shield_03, HP_Executor_Shield_04, HP_Executor_Shield_05, HP_Executor_Shield_06,
+		HP_Executor_Hanger_00, HP_Executor_Hanger_01, HP_Executor_Hanger_02, HP_Executor_Hanger_03, HP_Executor_Hanger_04, HP_Executor_Hanger_05, HP_Executor_Hanger_06, HP_Executor_Hanger_07, HP_Executor_Hanger_08, HP_Executor_Hanger_09,
+		HP_Executor_Hanger_10, HP_Executor_Hanger_11, HP_Executor_Hanger_12, HP_Executor_Hanger_13, HP_Executor_Hanger_14, HP_Executor_Hanger_15, HP_Executor_Hanger_16, HP_Executor_Hanger_17, HP_Executor_Hanger_18, HP_Executor_Hanger_19,
+		HP_Executor_DTL_01, HP_Executor_DTL_02, HP_Executor_DTL_03, HP_Executor_DTL_04, HP_Executor_DTL_05, HP_Executor_DTL_06, HP_Executor_DTL_07, HP_Executor_DTL_08, HP_Executor_DTL_09, HP_Executor_DTL_10,
+		HP_Executor_DTL_11, HP_Executor_DTL_12, HP_Executor_DTL_13, HP_Executor_DTL_14, HP_Executor_DTL_15, HP_Executor_DTL_16, HP_Executor_DTL_17, HP_Executor_DTL_18, HP_Executor_DTL_19,
+							HP_Executor_DTL_22, HP_Executor_DTL_23, HP_Executor_DTL_24, HP_Executor_DTL_25, HP_Executor_DTL_26, HP_Executor_DTL_27, HP_Executor_DTL_28, HP_Executor_DTL_29, HP_Executor_DTL_30,
+		HP_Executor_DTL_31, HP_Executor_DTL_32, HP_Executor_DTL_33, HP_Executor_DTL_34, HP_Executor_DTL_35, HP_Executor_DTL_36, HP_Executor_DTL_37, HP_Executor_DTL_38, HP_Executor_DTL_39, HP_Executor_DTL_40,
+		HP_Executor_DTL_41, HP_Executor_DTL_42, HP_Executor_DTL_43, HP_Executor_DTL_44, HP_Executor_DTL_45, HP_Executor_DTL_46, HP_Executor_DTL_47, HP_Executor_DTL_48, HP_Executor_DTL_49, HP_Executor_DTL_50,
+		HP_Executor_DTL_51, HP_Executor_DTL_52, HP_Executor_DTL_53, HP_Executor_DTL_54, HP_Executor_DTL_55, HP_Executor_DTL_56, HP_Executor_DTL_57, HP_Executor_DTL_58, HP_Executor_DTL_59, HP_Executor_DTL_60,
+		HP_Executor_DTL_61, HP_Executor_DTL_62, HP_Executor_DTL_63, HP_Executor_DTL_64, HP_Executor_DTL_65, HP_Executor_DTL_66, HP_Executor_DTL_67, HP_Executor_DTL_68, HP_Executor_DTL_69, HP_Executor_DTL_70,
+		HP_Executor_DTL_71, HP_Executor_DTL_72, HP_Executor_DTL_73, HP_Executor_DTL_74, HP_Executor_DTL_75, HP_Executor_DTL_76, HP_Executor_DTL_77, HP_Executor_DTL_78, HP_Executor_DTL_79, HP_Executor_DTL_80,
+		HP_Executor_DTL_81, HP_Executor_DTL_82, HP_Executor_DTL_83, HP_Executor_DTL_84, HP_Executor_DTL_85, HP_Executor_DTL_86, HP_Executor_DTL_87, HP_Executor_DTL_88, HP_Executor_DTL_89
+		</HardPoints>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FULL_SALVO</Type>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Expiration_Seconds>15</Expiration_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_intensify_firepower.tga</Alternate_Icon_Name>
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+
+       	<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Ozzel_Executor_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Super | Capital | Frigate </Unit_Strength_Category>
+				<Applicable_Unit_Categories>Super | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>3.0</Movement_Speed_Bonus_Percentage>
+				<Fire_Range_Bonus_Percentage>0.0</Fire_Range_Bonus_Percentage>
+				<Stacking_Category>5</Stacking_Category>
+			</Combat_Bonus_Ability>
+        </Abilities>
+	</UniqueUnit>
+
+</Piett_Data>

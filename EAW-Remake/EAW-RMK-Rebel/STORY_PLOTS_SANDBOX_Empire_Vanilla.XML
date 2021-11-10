@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Story_Mode_Plots>
+    <Lua_Script />
+	<Active_Plot>STORY_SANDBOX_Empire_Vanilla.XML</Active_Plot>
+	
+   <Lua_Script>Unit_Filter_Empire</Lua_Script>
+    <Active_Plot>Filter_Empire.xml</Active_Plot>
+</Story_Mode_Plots>

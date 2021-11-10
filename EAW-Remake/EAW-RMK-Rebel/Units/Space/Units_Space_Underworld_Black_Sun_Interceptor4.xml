@@ -1,0 +1,216 @@
+﻿<?xml version="1.0"?>
+
+
+<Interceptor_IV_Frigate>
+
+	<SpaceUnit Name="Interceptor4_Frigate">
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+		<Moniker>Consortium_InterceptorIV.txt</Moniker>
+		<Text_ID>TEXT_UNIT_INTERCEPTOR4</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE
+			TEXT_LINE 
+			TEXT_TOOLTIP_INTERCEPTOR4_FRIGATE_STATS
+		</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
+
+		<Space_Model_Name>UV_InterceptorIV.alo</Space_Model_Name>
+		<Icon_Name>I_BUTTON_UNIT_UNDERWORLD_ACTIONIV.TGA</Icon_Name>
+
+		<Select_Box_Scale>1</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1</Select_Box_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<Mass>0.999</Mass>
+		<Scale_Factor>0.066</Scale_Factor>
+		<Damage>30</Damage>
+		<Autoresolve_Health>2500</Autoresolve_Health>
+		<Shield_Points>1500</Shield_Points>
+		<Tactical_Health>1500</Tactical_Health>
+		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
+		<Energy_Capacity>2000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>4</Max_Speed>
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<OverrideAcceleration> 0.035 </OverrideAcceleration>
+		<OverrideDeceleration> 0.035 </OverrideDeceleration>
+
+		<Armor_Type> Armor_Default </Armor_Type>
+        <Shield_Armor_Type>Shield_Default</Shield_Armor_Type>
+        
+		<Hyperspace>Yes</Hyperspace>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Hyperspace_Speed>0.75</Hyperspace_Speed>
+		<Maintenance_Cost>0.2</Maintenance_Cost>
+
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Cheap_Bribe_Cost>110</Cheap_Bribe_Cost>
+		<Expensive_Bribe_Cost>220</Expensive_Bribe_Cost>
+		<Tactical_Bribe_Cost>1600</Tactical_Bribe_Cost>
+
+		<Affiliation>Underworld</Affiliation>
+		<Ship_Class>corvette</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Squadron_Capacity>10</Squadron_Capacity>
+		<Transport_Capacity>8</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<AI_Combat_Power>25</AI_Combat_Power>
+		<Size_Value>8</Size_Value>
+
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
+		<SpaceBehavior>HUNT, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<HardPoints>
+			HP_Interceptor_Frigate_00,
+			HP_Interceptor_Frigate_01,
+			HP_Interceptor_Frigate_02
+		</HardPoints>
+		
+		
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Interceptor_IV</SFXEvent_Build_Complete>
+
+		<SFXEvent_Select>Unit_Select_Interceptor_IV</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Interceptor_IV</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Interceptor_IV</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Interceptor_IV</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Interceptor_IV</SFXEvent_Guard>
+		<SFXEvent_Barrage>Unit_Barrage_Interceptor_IV</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Interceptor_IV </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Interceptor_IV </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Laser_Interceptor_IV  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Interceptor_IV </SFXEvent_Hardpoint_Destroyed>
+
+		
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Corvette | AntiCorvette</CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Score_Cost_Credits>1</Score_Cost_Credits>
+		<Population_Value>2</Population_Value>
+
+		<Death_Explosions>New_Space_Explosion_Medium_Heat</Death_Explosions>
+		<Death_Clone></Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Landing_Transport_Variant>Underworld_Vehicle_Transport_Landing</Landing_Transport_Variant>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="Interceptor5_Frigate">
+<Variant_Of_Existing_Type>Interceptor4_Frigate</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_INTERCEPTOR5</Text_ID>
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_PIRATE_FRIGATE
+			TEXT_LINE 
+			TEXT_TOOLTIP_PIRATE_FRIGATE_STATS
+		</Encyclopedia_Text>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Build_Cost_Credits>1400</Build_Cost_Credits>
+		<AI_Combat_Power>35</AI_Combat_Power>
+		<Shield_Points>2000</Shield_Points>
+		<Tactical_Health>1500</Tactical_Health>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Icon_Name>I_BUTTON_UNIT_UNDERWORLD_ACTIONV.TGA</Icon_Name>
+		<Space_Model_Name>NV_pirate_frigate.alo</Space_Model_Name>
+
+				<CategoryMask> Corvette | AntiCorvette | AntiFrigate</CategoryMask>
+
+		<Tech_Level>3</Tech_Level>
+		<Population_Value>3</Population_Value>
+		
+		<HardPoints>
+			HP_Interceptor_FrigateV_00,
+			HP_Interceptor_FrigateV_01,
+			HP_Interceptor_FrigateV_02
+		</HardPoints>
+
+				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+</Interceptor_IV_Frigate>

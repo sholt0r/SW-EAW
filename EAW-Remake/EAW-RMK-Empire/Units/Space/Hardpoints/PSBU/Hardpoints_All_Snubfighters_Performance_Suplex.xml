@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HardPoints>
+
+<!-- TIE Fighters -->
+    <HardPoint Name="New_HP_TIE_Fighter_Prop_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_FIGHTER
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_FighterR90_01.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_01</Attachment_Bone>
+            <Collision_Mesh>Collision_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_01</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_Dual_TIE</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="New_HP_TIE_Fighter_Prop_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_FIGHTER
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_FighterR90_02.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_02</Attachment_Bone>
+            <Collision_Mesh>Collision_02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_02</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_02</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_Dual_TIE</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>450.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="New_HP_TIE_Fighter_Prop_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_FIGHTER
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_FighterR90_03.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_03</Attachment_Bone>
+            <Collision_Mesh>Collision_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_03</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_03</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_Dual_TIE</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>475.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="New_HP_TIE_Fighter_Prop_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_FIGHTER
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_FighterR90_04.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_04</Attachment_Bone>
+            <Collision_Mesh>Collision_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_04</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_04</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_Dual_TIE</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>525.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="New_HP_TIE_Fighter_Prop_05">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_FIGHTER
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_FighterR90_05.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_05</Attachment_Bone>
+            <Collision_Mesh>Collision_05</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_05</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_05</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_Dual_TIE</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+<!-- TIE Interceptor -->
+    <HardPoint Name="New_HP_TIE_Interceptor_Prop_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>16.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_InterceptorR90_01.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_01</Attachment_Bone>
+            <Collision_Mesh>Collision_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_01</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+    <HardPoint Name="New_HP_TIE_Interceptor_Prop_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>16.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_InterceptorR90_02.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_02</Attachment_Bone>
+            <Collision_Mesh>Collision_02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_02</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_02</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>450.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="New_HP_TIE_Interceptor_Prop_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>16.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_InterceptorR90_03.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_03</Attachment_Bone>
+            <Collision_Mesh>Collision_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_03</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_03</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>425.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+    <HardPoint Name="New_HP_TIE_Interceptor_Prop_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>16.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_InterceptorR90_04.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_04</Attachment_Bone>
+            <Collision_Mesh>Collision_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_04</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_04</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>525.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+
+<!-- TIE Interceptor Royal Props -->
+    <HardPoint Name="New_HP_TIE_Interceptor_Royal_Prop_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>32.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR_ELITE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_Royal_R90_01.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_01</Attachment_Bone>
+            <Collision_Mesh>Collision_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_01</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>775.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+    <HardPoint Name="New_HP_TIE_Interceptor_Royal_Prop_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>32.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR_ELITE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_Royal_R90_02.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_02</Attachment_Bone>
+            <Collision_Mesh>Collision_02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_02</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_02</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>750.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="New_HP_TIE_Interceptor_Royal_Prop_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>32.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR_ELITE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_Royal_R90_03.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_03</Attachment_Bone>
+            <Collision_Mesh>Collision_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_03</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_03</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>450</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>725.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+    <HardPoint Name="New_HP_TIE_Interceptor_Royal_Prop_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>32.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_TIE_INTERCEPTOR_ELITE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_Royal_R90_04.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_04</Attachment_Bone>
+            <Collision_Mesh>Collision_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_04</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_04</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+	
+<!-- TIE Interceptor 181 Props -->
+    <HardPoint Name="New_HP_TIE_Interceptor_181_Prop_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>125.0</Health>
+
+		<Tooltip_Text>
+		TEXT_ENCYCLOPEDIA_SABER_SQUADRON
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_181_R90_01.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_01</Attachment_Bone>
+            <Collision_Mesh>Collision_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_01</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>775.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+    <HardPoint Name="New_HP_TIE_Interceptor_181_Prop_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>125.0</Health>
+
+		<Tooltip_Text>
+		TEXT_ENCYCLOPEDIA_SABER_SQUADRON
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_181_R90_02.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_02</Attachment_Bone>
+            <Collision_Mesh>Collision_02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_02</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_02</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>750.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="New_HP_TIE_Interceptor_181_Prop_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>125.0</Health>
+
+		<Tooltip_Text>
+		TEXT_ENCYCLOPEDIA_SABER_SQUADRON
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_181_R90_03.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_03</Attachment_Bone>
+            <Collision_Mesh>Collision_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_03</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_03</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>725.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+    <HardPoint Name="New_HP_TIE_Interceptor_181_Prop_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>125.0</Health>
+
+		<Tooltip_Text>
+		TEXT_ENCYCLOPEDIA_SABER_SQUADRON
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter_Blue</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_TIE_Fighter_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Empire_TIE_Interceptor_181_R90_04.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_04</Attachment_Bone>
+            <Collision_Mesh>Collision_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_04</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_04</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green_TIE_Interceptor_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+	<!-- Vulture Droids -->
+
+    <HardPoint Name="New_HP_Vulture_Prop_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_CIS_VULTURE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_CIS_Vulture_DroidR90_01.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_01</Attachment_Bone>
+            <Collision_Mesh>Collision_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_01</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Vulture_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>500</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Vulture_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_Vulture_Prop_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_CIS_VULTURE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_CIS_Vulture_DroidR90_02.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_02</Attachment_Bone>
+            <Collision_Mesh>Collision_02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_02</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_02</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Vulture_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>500</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>525</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Vulture_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_Vulture_Prop_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_CIS_VULTURE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_CIS_Vulture_DroidR90_03.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_03</Attachment_Bone>
+            <Collision_Mesh>Collision_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_03</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_03</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Vulture_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>500</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Vulture_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_Vulture_Prop_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_CIS_VULTURE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_CIS_Vulture_DroidR90_04.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_04</Attachment_Bone>
+            <Collision_Mesh>Collision_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_04</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_04</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Vulture_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>500</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>475</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Vulture_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_Vulture_Prop_05">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_CIS_VULTURE
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_CIS_Vulture_DroidR90_05.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_05</Attachment_Bone>
+            <Collision_Mesh>Collision_05</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_05</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_05</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Vulture_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>500</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>450</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Vulture_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+	<!-- V-Wing props-->
+
+    <HardPoint Name="New_HP_V_Wing_Prop_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REPUBLIC_V_WING
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Republic_V-WingR90_01.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_01</Attachment_Bone>
+            <Collision_Mesh>Collision_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_01</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_V_Wing_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>550</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_V_Wing_Prop_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REPUBLIC_V_WING
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Republic_V-WingR90_02.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_02</Attachment_Bone>
+            <Collision_Mesh>Collision_02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_02</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_02</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_V_Wing_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>525</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_V_Wing_Prop_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REPUBLIC_V_WING
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Republic_V-WingR90_03.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_03</Attachment_Bone>
+            <Collision_Mesh>Collision_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_03</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_03</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_V_Wing_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>500</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_V_Wing_Prop_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REPUBLIC_V_WING
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Republic_V-WingR90_04.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_04</Attachment_Bone>
+            <Collision_Mesh>Collision_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_04</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_04</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_V_Wing_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>475</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+    <HardPoint Name="New_HP_V_Wing_Prop_05">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>12.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_REPUBLIC_V_WING
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Republic_V-WingR90_05.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_05</Attachment_Bone>
+            <Collision_Mesh>Collision_05</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+		<Fire_Bone_A>FAFP_05</Fire_Bone_A>
+		<Fire_Bone_B>FAFP_05</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_V_Wing_New</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>450</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+<!-- Sith Starfighter -->
+    <HardPoint Name="New_HP_Sith_Fighter_Prop_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_SITH
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Sith_FighterR90_01.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_01</Attachment_Bone>
+            <Collision_Mesh>Collision_01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_01</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_01</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Sith_Fighter_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>550.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+    <HardPoint Name="New_HP_Sith_Fighter_Prop_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>1.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_SITH
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Sith_FighterR90_02.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_02</Attachment_Bone>
+            <Collision_Mesh>Collision_02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_02</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_02</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Sith_Fighter_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>525.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+    <HardPoint Name="New_HP_Sith_Fighter_Prop_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>1.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_SITH
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Sith_FighterR90_03.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_03</Attachment_Bone>
+            <Collision_Mesh>Collision_03</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_03</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_03</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Sith_Fighter_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+    <HardPoint Name="New_HP_Sith_Fighter_Prop_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_SITH
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Sith_FighterR90_04.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_04</Attachment_Bone>
+            <Collision_Mesh>Collision_04</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_04</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_04</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Sith_Fighter_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>475.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+    <HardPoint Name="New_HP_Sith_Fighter_Prop_05">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Health>11.0</Health>
+
+		<Tooltip_Text>
+		TEXT_TOOLTIP_STARFIGHTER_SITH
+		</Tooltip_Text>
+
+			<Death_Explosion_Particles> Small_Explosion_Space_Fighter</Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_X_Wing_Death_SFX</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>Neutral_Sith_FighterR90_05.ALO</Model_To_Attach>
+            <Attachment_Bone>FA_05</Attachment_Bone>
+            <Collision_Mesh>Collision_05</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles></Damage_Particles>
+
+			<Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+            <Fire_Bone_A>FAFP_05</Fire_Bone_A>
+            <Fire_Bone_B>FAFP_05</Fire_Bone_B>
+            <Fire_Cone_Width>20</Fire_Cone_Width>
+            <Fire_Cone_Height>40</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red_Sith_Fighter_New</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>500</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.8</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>450.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+
+			<Fire_Inaccuracy_Distance> Fighter, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 2.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+
+</HardPoints>

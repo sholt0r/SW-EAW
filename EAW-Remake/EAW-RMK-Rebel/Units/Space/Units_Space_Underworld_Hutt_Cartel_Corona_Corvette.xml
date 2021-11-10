@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpaceUnitsCapital>
+
+	<SpaceUnit Name="Corona_Corvette">
+	<Lua_Script>ObjectScript_Battledragon</Lua_Script>
+
+		<Text_ID>TEXT_UNIT_CORONA</Text_ID>
+
+		<Encyclopedia_Text>
+			TEXT_TOOLTIP_CORONA
+			TEXT_LINE
+			TEXT_TOOLTIP_CORONA_STATS
+		</Encyclopedia_Text>
+	
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
+
+		<GUI_Row> 1 </GUI_Row>
+
+		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+
+		<Space_Model_Name>Underworld_Black_Sun_Corona.ALO</Space_Model_Name>
+		<Select_Box_Scale>1</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>1</Scale_Factor>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
+
+        <Ranking_In_Category>7</Ranking_In_Category>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		
+		<Max_Speed>6.5</Max_Speed>
+		<Min_Speed>1</Min_Speed>
+		<Max_Lift>1.0</Max_Lift>
+		<Max_Rate_Of_Turn>0.65</Max_Rate_Of_Turn>
+		<Max_Thrust>0.6</Max_Thrust>
+		<Max_Rate_Of_Roll>1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>1500.0</Begin_Turn_Towards_Distance>
+
+		<MovementClass> Space </MovementClass>
+		<Layer_Z_Adjust>0</Layer_Z_Adjust>
+		<OverrideAcceleration> 0.02 </OverrideAcceleration>
+		<OverrideDeceleration> 0.02 </OverrideDeceleration>
+
+		<Armor_Type> Armor_Default </Armor_Type>
+        <Shield_Armor_Type>Shield_Default</Shield_Armor_Type>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>0.65</Hyperspace_Speed>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
+
+		<Affiliation>Underworld</Affiliation>
+		<Tech_Level>3</Tech_Level>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Shield_Points>6000</Shield_Points>
+		<Tactical_Health>6000</Tactical_Health>
+		<Damage>20</Damage>
+		<Autoresolve_Health>900</Autoresolve_Health> 
+		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
+		<Energy_Capacity>1500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>corvette</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>5</Squadron_Capacity>
+		<Transport_Capacity>4</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>6500</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<AI_Combat_Power>125</AI_Combat_Power>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>120</Size_Value>
+		<Behavior>ABILITY_COUNTDOWN, DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>WEAPON, HUNT, FIGHTER_LOCOMOTOR, TARGETING, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+	<Projectile_Types>Proj_Concussion_Missile_Heavy_Trajectory</Projectile_Types>
+  	<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+	<Turret_Elevate_Extent_Degrees>360</Turret_Elevate_Extent_Degrees>
+	<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+ 	<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+ 	<Projectile_Fire_Recharge_Seconds>4</Projectile_Fire_Recharge_Seconds>
+ 	<Targeting_Min_Attack_Distance>10</Targeting_Min_Attack_Distance>
+  	<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<!-- <Death_Explosions>Conc_Missile_Meme_Ship_Detonation_Particle</Death_Explosions> -->
+		<Death_Explosions>New_Space_Explosion_Medium_Heat</Death_Explosions>
+		<Death_Clone></Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+
+		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
+		<Icon_Name>I_BUTTON_UNIT_UNDERWORLD_CORONA.TGA</Icon_Name>
+		<GUI_Model_Name>Underworld_Black_Sun_Trireme_Gunship.ALO</GUI_Model_Name>
+		<GUI_Distance>900</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tartan</SFXEvent_Build_Complete>
+		
+		<SFXEvent_Select>Unit_Select_Tartan</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Tartan</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tartan</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Tartan</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Tartan</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Tartan</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Tartan</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Tartan </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MASS_DRIVER, Unit_Attack_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_SPECIAL, Unit_Attack_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Attack_Tartan </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Tartan </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_Attack_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_TRACTOR_BEAM, Unit_Attack_Tartan </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_DUMMY_ART, Unit_Attack_Tartan </SFXEvent_Attack_Hardpoint>
+
+		<Tactical_Bribe_Cost>625</Tactical_Bribe_Cost>
+
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		 
+		<MovementClass> Space </MovementClass>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>400.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+	
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>TURBO</Type>
+			
+				<Expiration_Seconds>30</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Tartan</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Score_Cost_Credits>10</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>9000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>8</Population_Value>
+	</SpaceUnit>
+
+</SpaceUnitsCapital>

@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<Jared_Sykes_Data>
+
+	<UniqueUnit Name="Sykes_Venator">
+		<Variant_Of_Existing_Type>Jedi_Cruiser_No_Fighters</Variant_Of_Existing_Type>
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+		<Text_ID>HERO_SHIP_SYKES_VENATOR</Text_ID>
+		<Encyclopedia_Text> HERO_SHIP_SYKES_VENATOR_DISC </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		
+		<Space_Model_Name>Underworld_Venator_Star_Destroyer.ALO</Space_Model_Name>
+
+		<Mass>0.999</Mass>
+		<GUI_Row> 0 </GUI_Row>
+		<Scale_Factor>1</Scale_Factor>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		
+		<Layer_Z_Adjust> 0 </Layer_Z_Adjust>
+
+		
+
+		<Affiliation>Underworld</Affiliation>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Build_Cost_Credits>17500</Build_Cost_Credits>
+		<Build_Time_Seconds>75</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<AI_Combat_Power>450</AI_Combat_Power>
+
+					<Starting_Spawned_Units_Tech_0>Pirate_Heavy_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>Pirate_Heavy_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+			
+					<Starting_Spawned_Units_Tech_0>Skipray_Squadron, 2</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>Skipray_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+			<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+
+
+		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
+		<Icon_Name>I_BUTTON_SYKES.tga</Icon_Name>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+			<Unit_Ability>
+				<Type>FULL_SALVO</Type>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Expiration_Seconds>15</Expiration_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Jedi_Cruiser</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_intensify_firepower.tga</Alternate_Icon_Name>
+            </Unit_Ability>
+			
+	</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>17500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Population_Value>15</Population_Value>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</UniqueUnit>
+
+
+	<SpaceUnit Name="End_of_Days">
+		<Variant_Of_Existing_Type>Kedalbe_Battleship</Variant_Of_Existing_Type>
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>HERO_SHIP_SYKES_KEDALBE</Text_ID>
+		<Encyclopedia_Text> HERO_SHIP_SYKES_KEDALBE_DISC</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_SYKES.tga</Icon_Name>
+
+		<Affiliation>Underworld</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Orbiting_Units>Sykes_Venator</Required_Orbiting_Units>
+		<Required_Planets>Mandalore</Required_Planets>
+		<Build_Cost_Credits>40000</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<AI_Combat_Power>1250</AI_Combat_Power>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>30000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+
+
+        <Abilities SubObjectList="Yes">
+
+			<Combat_Bonus_Ability Name="Sykes_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category> Capital | Corvette | Frigate | Fighter </Unit_Strength_Category>
+				<Applicable_Unit_Categories> Capital | Corvette | Frigate | Fighter </Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage> 0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage> 0.0 </Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage> 0.0 </Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage> 0.1 </Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage> 0.0 </Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage> 0.0 </Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>2</Stacking_Category>
+			</Combat_Bonus_Ability>
+            
+        </Abilities>
+		
+
+	</SpaceUnit>
+
+
+</Jared_Sykes_Data>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profundity_Files>
+
+	<UniqueUnit Name="Profundity">
+		<Variant_Of_Existing_Type>MC75</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<GUI_Row> 0 </GUI_Row>
+		<Text_ID>TEXT_UNIT_PROFUNDITY</Text_ID>
+		<CategoryMask> SpaceHero | Capital | AntiFrigate | AntiCapital</CategoryMask>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>   
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+		
+		<Encyclopedia_Text> 
+			TEXT_TOOLTIP_PROFUNDITY
+			TEXT_LINE
+			TEXT_TOOLTIP_PROFUNDITY_STATS
+		</Encyclopedia_Text>
+		<Icon_Name>I_BUTTON_RADDUS.tga</Icon_Name>
+		
+		<Tech_Level>3</Tech_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Planets>MonCalimari</Required_Planets>
+		<AI_Combat_Power>400</AI_Combat_Power>
+		
+		<Autoresolve_Health>2500</Autoresolve_Health>
+		<Shield_Points>30000</Shield_Points>
+		<Shield_Refresh_Rate>600</Shield_Refresh_Rate>
+	</UniqueUnit>
+
+</Profundity_Files>

@@ -1,0 +1,2258 @@
+<?xml version="1.0"?>
+<Campaigns>
+
+
+	<Campaign Name="Core_Underworld">
+
+		<Campaign_Set> Core </Campaign_Set>
+		<Sort_Order>21</Sort_Order>
+
+        <Text_ID> GC_CORE </Text_ID>
+        <Description_Text> GC_CORE_DESC </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+			Icon_Republic_Rendili,
+			Icon_CIS_Neimoidia,
+			Icon_CIS_Cato,
+			Icon_CIS_Foerost,
+			Icon_Kuat,
+			Icon_Hapes,
+			Arkania,
+			Alderaan,
+			Anaxes,
+			Abregado_Rae,
+			Atzerri,
+			Balmorra,
+			Bestine,
+			Byss,
+			Borleias,
+			Bilbringi,
+			Commenor,
+			Corulag,
+			Carida,
+			Corellia,
+			Coruscant,
+			Cato_Neimoidia,
+			Constancia,
+			Duro,
+			Fondor,
+			Fresia,
+			Foerost,
+			Hapes,
+			Ithor,
+			Kuat,
+			Loronar,
+			Manaan,
+			Mindor,
+			Mechis,
+			Myrkr,
+			Mimban,
+			Neimoidia,
+			Ord_Mantell,
+			Onderon2,
+			Rendili,
+			Thyferra,
+			Tython,
+			Taris,
+			YagDhul2
+		</Locations>
+
+        <Trade_Routes>
+			CLine_1,	
+			CLine_2,	
+			CLine_3,	
+			CLine_4,	
+			CLine_5,	
+			CLine_6,	
+			CLine_7,	
+			CLine_8,	
+			CLine_9,	
+			CLine_10,	
+			CLine_11,	
+			CLine_12,	
+			CLine_13,	
+			CLine_14,
+			CLine_15,	
+			CLine_16,
+			CLine_17,
+			CLine_18,
+			CLine_19,
+			CLine_20,
+			CLine_21,
+			CLine_22,
+			CLine_23,
+			CLine_24,
+			CLine_25,
+			CLine_26,
+			CLine_27,
+			CLine_28,
+			CLine_29,
+			CLine_30,
+			CLine_31,
+			CLine_32,
+			CLine_33,
+			CLine_34,
+			CLine_35,
+			CLine_36,
+			CLine_37,
+			CLine_38,
+			CLine_39,
+			CLine_40,
+			CLine_41,
+			CLine_42,
+			CLine_43,
+			CLine_44,
+			CLine_45,
+			CLine_46,
+			CLine_47,
+			CLine_48,
+			CLine_49,
+			CLine_50,
+			CLine_51,
+			CLine_52,
+			CLine_53,
+			CLine_54,
+			CLine_55,
+			CLine_56,
+			CLine_57,
+			CLine_58,
+			CLine_59,
+			CLine_60,
+			CLine_61,
+			CLine_62,
+			CLine_63,
+			CLine_64,
+			CLine_65,
+			CLine_66,
+			CLine_67,
+			CLine_68,
+			CLine_69,
+			CLine_70,
+			CLine_71
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Onderon2 </Home_Location>
+        <Home_Location> Empire, Coruscant </Home_Location>
+        <Home_Location> Underworld, YagDhul2 </Home_Location>
+
+        <Starting_Active_Player> Underworld </Starting_Active_Player>
+
+		<Rebel_Story_Name>STORY_PLOTS_REBEL_AI_HEROES_EXP_TW.xml</Rebel_Story_Name>
+        <Empire_Story_Name>STORY_PLOTS_EMPIRE_AI_HEROES_EXP_TW.xml</Empire_Story_Name>
+        <Underworld_Story_Name>STORY_PLOTS_SANDBOX_Criminals_South.xml</Underworld_Story_Name>
+        
+        <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Underworld, SandboxHuman</AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+
+		<Human_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+ 
+		<!-- Rebel Starting Forces -->
+		<Starting_Credits> Rebel,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Onderon2, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, R_Orbital_Mine </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Calamari_Cruiser_Wingless </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, MC_Tide </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, A_Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, A_Wing_Squadron </Starting_Forces>
+
+		
+		<!-- Empire Starting Forces -->
+		<Starting_Credits> Empire,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+
+		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Orbital_Mine</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship_II</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship_II </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Jedi_Cruiser_Empire </Starting_Forces>
+		
+		
+		
+		<!-- Underworld Starting Forces -->
+		<Starting_Credits> Underworld,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Underworld, YagDhul2, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, U_Orbital_Mine </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Munificent_Frigate_U </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Munificent_Frigate_U </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+      
+	  
+	  
+	  
+	  
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Arkania, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Dreadnaught_Cruiser_P </Starting_Forces>
+      
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Mindor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Quasar_Carrier_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Quasar_Carrier_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Interceptor4_Frigate </Starting_Forces>
+      
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Borleias, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Providence_Destroyer_P </Starting_Forces>
+		
+		
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Interceptor4_Frigate </Starting_Forces>
+		
+		
+		
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Commenor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Nebulon_B_Frigate </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Constancia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Recusant_Destroyer_P </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Neimoidia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Freighter_Lucrehulk </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Duro, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Interceptor4_Frigate </Starting_Forces>
+
+
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Anaxes, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, Dreadnaught_Cruiser_P </Starting_Forces>
+		
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Carida, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor5_Frigate </Starting_Forces>
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Balmorra, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Providence_Destroyer_P </Starting_Forces>
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Alderaan, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Corulag, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Interceptor4_Frigate </Starting_Forces>
+		
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Rendili, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Corellia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		
+	
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Byss, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Munificent_Frigate_P </Starting_Forces>
+		
+
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Bestine, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		
+		
+		
+
+<!-- Pirate Systems, Underworld -->
+		<Starting_Forces> Pirates, Mechis, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+
+		
+		
+		<Starting_Forces> Pirates, Foerost, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor5_Frigate </Starting_Forces>
+		
+
+
+<!-- Pirate Systems, Random -->
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		
+        <!-- Pirate Space Forces -->
+        <Starting_Forces> Pirates, Atzerri, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+
+        <!-- Pirate Space Forces -->
+        <Starting_Forces> Pirates, Manaan, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Ord_Mantell, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Arquitens </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Thyferra, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Corellian_Corvette </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Hapes, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Mimban, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Asteroid_Base</Starting_Forces>
+		<Starting_Forces> Pirates, Taris, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Saboath_Destroyer </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Ithor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Myrkr, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Saboath_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor5_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Tython, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Dreadnaught_Cruiser_P </Starting_Forces>
+
+
+<!-- Pirate Systems, Imperial -->
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Kuat, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Secutor_Imperial_E</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Star_Destroyer</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Star_Destroyer_1</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+        
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Fondor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Procursator </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Jedi_Cruiser_E </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Jedi_Cruiser_E </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Loronar, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+
+
+
+
+<!-- Pirate Systems, Rebel -->
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Fresia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor5_Frigate </Starting_Forces>
+      
+
+<!-- Pirate Systems, CIS -->
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Cato_Neimoidia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Cato_Neimoidia, Lucrehulk_Battleship </Starting_Forces>
+
+    </Campaign>
+
+
+	<Campaign Name="Core_Rebel">
+
+		<Campaign_Set> Core </Campaign_Set>
+		<Sort_Order>21</Sort_Order>
+
+        <Text_ID> GC_CORE </Text_ID>
+        <Description_Text> GC_CORE_DESC </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+			Icon_Republic_Rendili,
+			Icon_CIS_Neimoidia,
+			Icon_CIS_Cato,
+			Icon_CIS_Foerost,
+			Icon_Kuat,
+			Icon_Hapes,
+			Arkania,
+			Alderaan,
+			Anaxes,
+			Abregado_Rae,
+			Atzerri,
+			Balmorra,
+			Bestine,
+			Byss,
+			Borleias,
+			Bilbringi,
+			Commenor,
+			Corulag,
+			Carida,
+			Corellia,
+			Coruscant,
+			Cato_Neimoidia,
+			Constancia,
+			Duro,
+			Fondor,
+			Fresia,
+			Foerost,
+			Hapes,
+			Ithor,
+			Kuat,
+			Loronar,
+			Manaan,
+			Mindor,
+			Mechis,
+			Myrkr,
+			Mimban,
+			Neimoidia,
+			Ord_Mantell,
+			Onderon2,
+			Rendili,
+			Thyferra,
+			Tython,
+			Taris,
+			YagDhul2
+		</Locations>
+
+
+        <Trade_Routes>
+			CLine_1,	
+			CLine_2,	
+			CLine_3,	
+			CLine_4,	
+			CLine_5,	
+			CLine_6,	
+			CLine_7,	
+			CLine_8,	
+			CLine_9,	
+			CLine_10,	
+			CLine_11,	
+			CLine_12,	
+			CLine_13,	
+			CLine_14,
+			CLine_15,	
+			CLine_16,
+			CLine_17,
+			CLine_18,
+			CLine_19,
+			CLine_20,
+			CLine_21,
+			CLine_22,
+			CLine_23,
+			CLine_24,
+			CLine_25,
+			CLine_26,
+			CLine_27,
+			CLine_28,
+			CLine_29,
+			CLine_30,
+			CLine_31,
+			CLine_32,
+			CLine_33,
+			CLine_34,
+			CLine_35,
+			CLine_36,
+			CLine_37,
+			CLine_38,
+			CLine_39,
+			CLine_40,
+			CLine_41,
+			CLine_42,
+			CLine_43,
+			CLine_44,
+			CLine_45,
+			CLine_46,
+			CLine_47,
+			CLine_48,
+			CLine_49,
+			CLine_50,
+			CLine_51,
+			CLine_52,
+			CLine_53,
+			CLine_54,
+			CLine_55,
+			CLine_56,
+			CLine_57,
+			CLine_58,
+			CLine_59,
+			CLine_60,
+			CLine_61,
+			CLine_62,
+			CLine_63,
+			CLine_64,
+			CLine_65,
+			CLine_66,
+			CLine_67,
+			CLine_68,
+			CLine_69,
+			CLine_70,
+			CLine_71
+		</Trade_Routes>
+
+        <Home_Location> Rebel, Onderon2 </Home_Location>
+        <Home_Location> Empire, Coruscant </Home_Location>
+        <Home_Location> Underworld, YagDhul2 </Home_Location>
+
+        <Starting_Active_Player> Rebel </Starting_Active_Player>
+
+		<Rebel_Story_Name>STORY_PLOTS_SANDBOX_REBEL_CORE.xml</Rebel_Story_Name>
+        <Empire_Story_Name>STORY_PLOTS_EMPIRE_AI_HEROES_EXP_TW.xml</Empire_Story_Name>
+        <Underworld_Story_Name>Story_Plots_Underworld_AI_Heroes.xml</Underworld_Story_Name>
+        
+        <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
+		<AI_Player_Control> Underworld, AI_Player_Underworld </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
+				
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+ 
+		<!-- Rebel Starting Forces -->
+		<Starting_Credits> Rebel,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Onderon2, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, R_Orbital_Mine </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Calamari_Cruiser_Wingless </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, MC_Tide </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, A_Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, A_Wing_Squadron </Starting_Forces>
+
+		
+		<!-- Empire Starting Forces -->
+		<Starting_Credits> Empire,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+
+		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Orbital_Mine</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship_II</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship_II </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Jedi_Cruiser_Empire </Starting_Forces>
+		
+		
+		
+		<!-- Underworld Starting Forces -->
+		<Starting_Credits> Underworld,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Underworld, YagDhul2, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, U_Orbital_Mine </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Munificent_Frigate_U </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Munificent_Frigate_U </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+      
+	  
+	  
+	  
+	  
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Arkania, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Dreadnaught_Cruiser_P </Starting_Forces>
+      
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Mindor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Quasar_Carrier_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Quasar_Carrier_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Interceptor4_Frigate </Starting_Forces>
+      
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Borleias, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Providence_Destroyer_P </Starting_Forces>
+		
+		
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Interceptor4_Frigate </Starting_Forces>
+		
+		
+		
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Commenor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Nebulon_B_Frigate </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Constancia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Recusant_Destroyer_P </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Neimoidia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Freighter_Lucrehulk </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Duro, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Interceptor4_Frigate </Starting_Forces>
+
+
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Anaxes, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, Dreadnaught_Cruiser_P </Starting_Forces>
+		
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Carida, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor5_Frigate </Starting_Forces>
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Balmorra, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Providence_Destroyer_P </Starting_Forces>
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Alderaan, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Corulag, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Interceptor4_Frigate </Starting_Forces>
+		
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Rendili, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Corellia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		
+	
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Byss, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Munificent_Frigate_P </Starting_Forces>
+		
+
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Bestine, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		
+		
+		
+
+<!-- Pirate Systems, Underworld -->
+		<Starting_Forces> Pirates, Mechis, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+
+		
+		
+		<Starting_Forces> Pirates, Foerost, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor5_Frigate </Starting_Forces>
+		
+
+
+<!-- Pirate Systems, Random -->
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		
+        <!-- Pirate Space Forces -->
+        <Starting_Forces> Pirates, Atzerri, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+
+        <!-- Pirate Space Forces -->
+        <Starting_Forces> Pirates, Manaan, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Ord_Mantell, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Arquitens </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Thyferra, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Corellian_Corvette </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Hapes, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Mimban, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Asteroid_Base</Starting_Forces>
+		<Starting_Forces> Pirates, Taris, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Saboath_Destroyer </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Ithor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Myrkr, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Saboath_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor5_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Tython, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Dreadnaught_Cruiser_P </Starting_Forces>
+
+
+<!-- Pirate Systems, Imperial -->
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Kuat, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Secutor_Imperial_E</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Star_Destroyer</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Star_Destroyer_1</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+        
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Fondor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Procursator </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Jedi_Cruiser_E </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Jedi_Cruiser_E </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Loronar, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+
+
+
+
+<!-- Pirate Systems, Rebel -->
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Fresia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor5_Frigate </Starting_Forces>
+      
+
+<!-- Pirate Systems, CIS -->
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Cato_Neimoidia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Cato_Neimoidia, Lucrehulk_Battleship </Starting_Forces>
+
+    </Campaign>
+
+
+	<Campaign Name="Core_Empire">
+
+		<Campaign_Set> Core </Campaign_Set>
+		<Sort_Order>21</Sort_Order>
+
+        <Text_ID> GC_CORE </Text_ID>
+        <Description_Text> GC_CORE_DESC </Description_Text>
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations> 
+				Galaxy_Core_Art_Model, 
+			Icon_Republic_Rendili,
+			Icon_CIS_Neimoidia,
+			Icon_CIS_Cato,
+			Icon_CIS_Foerost,
+			Icon_Kuat,
+			Icon_Hapes,
+			Arkania,
+			Alderaan,
+			Anaxes,
+			Abregado_Rae,
+			Atzerri,
+			Balmorra,
+			Bestine,
+			Byss,
+			Borleias,
+			Bilbringi,
+			Commenor,
+			Corulag,
+			Carida,
+			Corellia,
+			Coruscant,
+			Cato_Neimoidia,
+			Constancia,
+			Duro,
+			Fondor,
+			Fresia,
+			Foerost,
+			Hapes,
+			Ithor,
+			Kuat,
+			Loronar,
+			Manaan,
+			Mindor,
+			Mechis,
+			Myrkr,
+			Mimban,
+			Neimoidia,
+			Ord_Mantell,
+			Onderon2,
+			Rendili,
+			Thyferra,
+			Tython,
+			Taris,
+			YagDhul2
+		</Locations>
+
+
+        <Trade_Routes>
+			CLine_1,	
+			CLine_2,	
+			CLine_3,	
+			CLine_4,	
+			CLine_5,	
+			CLine_6,	
+			CLine_7,	
+			CLine_8,	
+			CLine_9,	
+			CLine_10,	
+			CLine_11,	
+			CLine_12,	
+			CLine_13,	
+			CLine_14,
+			CLine_15,	
+			CLine_16,
+			CLine_17,
+			CLine_18,
+			CLine_19,
+			CLine_20,
+			CLine_21,
+			CLine_22,
+			CLine_23,
+			CLine_24,
+			CLine_25,
+			CLine_26,
+			CLine_27,
+			CLine_28,
+			CLine_29,
+			CLine_30,
+			CLine_31,
+			CLine_32,
+			CLine_33,
+			CLine_34,
+			CLine_35,
+			CLine_36,
+			CLine_37,
+			CLine_38,
+			CLine_39,
+			CLine_40,
+			CLine_41,
+			CLine_42,
+			CLine_43,
+			CLine_44,
+			CLine_45,
+			CLine_46,
+			CLine_47,
+			CLine_48,
+			CLine_49,
+			CLine_50,
+			CLine_51,
+			CLine_52,
+			CLine_53,
+			CLine_54,
+			CLine_55,
+			CLine_56,
+			CLine_57,
+			CLine_58,
+			CLine_59,
+			CLine_60,
+			CLine_61,
+			CLine_62,
+			CLine_63,
+			CLine_64,
+			CLine_65,
+			CLine_66,
+			CLine_67,
+			CLine_68,
+			CLine_69,
+			CLine_70,
+			CLine_71
+		</Trade_Routes>
+
+
+        <Home_Location> Rebel, Onderon2 </Home_Location>
+        <Home_Location> Empire, Coruscant </Home_Location>
+        <Home_Location> Underworld, YagDhul2 </Home_Location>
+
+        <Starting_Active_Player> Empire </Starting_Active_Player>
+
+		<Rebel_Story_Name>STORY_PLOTS_REBEL_AI_HEROES_EXP_TW.xml</Rebel_Story_Name>
+        <Empire_Story_Name>STORY_PLOTS_SANDBOX_Empire_TW.xml</Empire_Story_Name>
+        <Underworld_Story_Name>Story_Plots_Underworld_AI_Heroes.xml</Underworld_Story_Name>
+        
+		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
+		<AI_Player_Control> Underworld, AI_Player_Underworld </AI_Player_Control>
+		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
+		<AI_Player_Control> Pirates, None </AI_Player_Control>
+		
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings>
+		<Show_Completed_Tab>True</Show_Completed_Tab>
+
+		<!-- Win Conditions -->
+
+		<Human_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</Human_Victory_Conditions>
+
+		<AI_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled
+		</AI_Victory_Conditions>
+ 
+		<!-- Rebel Starting Forces -->
+		<Starting_Credits> Rebel,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Rebel, 0 </Starting_Tech_Level>
+		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
+
+		<Starting_Forces> Rebel, Onderon2, Rebel_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, R_Orbital_Mine </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Calamari_Cruiser_Wingless </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, MC_Tide </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, A_Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, Onderon2, A_Wing_Squadron </Starting_Forces>
+
+		
+		<!-- Empire Starting Forces -->
+		<Starting_Credits> Empire,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Orbital_Mine</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Tartan_Patrol_Cruiser</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship_II</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Acclamator_Assault_Ship_II </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Jedi_Cruiser_Empire </Starting_Forces>
+		
+		
+		
+		<!-- Underworld Starting Forces -->
+		<Starting_Credits> Underworld,  50000 </Starting_Credits>
+		<Starting_Tech_Level> Underworld, 1 </Starting_Tech_Level>
+		<Max_Tech_Level> Underworld, 5 </Max_Tech_Level>
+
+		<Starting_Forces> Underworld, YagDhul2, Underworld_Star_Base_2 </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, U_Orbital_Mine </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Munificent_Frigate_U </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Munificent_Frigate_U </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Ugly_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Underworld, YagDhul2, Pirate_Heavy_Fighter_Squadron </Starting_Forces>
+      
+	  
+	  
+	  
+	  
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Arkania, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Arkania, Dreadnaught_Cruiser_P </Starting_Forces>
+      
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Mindor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Quasar_Carrier_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Quasar_Carrier_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mindor, Interceptor4_Frigate </Starting_Forces>
+      
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Borleias, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Borleias, Providence_Destroyer_P </Starting_Forces>
+		
+		
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Bilbringi, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Bilbringi, Interceptor4_Frigate </Starting_Forces>
+		
+		
+		
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Commenor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Commenor, Nebulon_B_Frigate </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Constancia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Constancia, Recusant_Destroyer_P </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Neimoidia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Freighter_Lucrehulk </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		<Starting_Forces> Pirates, Neimoidia, Munificent_Frigate_P </Starting_Forces>
+		
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Duro, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Duro, Interceptor4_Frigate </Starting_Forces>
+
+
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Anaxes, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Anaxes, Dreadnaught_Cruiser_P </Starting_Forces>
+		
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Carida, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Carida, Interceptor5_Frigate </Starting_Forces>
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Balmorra, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Balmorra, Providence_Destroyer_P </Starting_Forces>
+		
+
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Alderaan, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, Nebulon_B_Frigate </Starting_Forces>
+		
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Corulag, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corulag, Interceptor4_Frigate </Starting_Forces>
+		
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Rendili, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Rendili, Z95_Headhunter_Squadron </Starting_Forces>
+		
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Corellia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Gunboat </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Corellia, Corellian_Corvette </Starting_Forces>
+		
+	
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Byss, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Byss, Munificent_Frigate_P </Starting_Forces>
+		
+
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Bestine, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		<Starting_Forces> Pirates, Bestine, Acclamator_Assault_Ship_I_P </Starting_Forces>
+		
+		
+		
+
+<!-- Pirate Systems, Underworld -->
+		<Starting_Forces> Pirates, Mechis, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Trireme_Gunship </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Mechis, VWing_Squadron_P </Starting_Forces>
+
+		
+		
+		<Starting_Forces> Pirates, Foerost, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Recusant_Destroyer_P </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Skipray_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Foerost, Interceptor5_Frigate </Starting_Forces>
+		
+
+
+<!-- Pirate Systems, Random -->
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, VWing_Squadron_P </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Abregado_Rae, Interceptor5_Frigate </Starting_Forces>
+		
+        <!-- Pirate Space Forces -->
+        <Starting_Forces> Pirates, Atzerri, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Atzerri, Interceptor4_Frigate </Starting_Forces>
+
+        <!-- Pirate Space Forces -->
+        <Starting_Forces> Pirates, Manaan, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Manaan, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Ord_Mantell, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ord_Mantell, Arquitens </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Thyferra, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Corellian_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Thyferra, Corellian_Corvette </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Hapes, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Hapes, Hapan_Nova_Cruiser_P </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Mimban, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Mimban, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Pirate_Asteroid_Base</Starting_Forces>
+		<Starting_Forces> Pirates, Taris, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Taris, Saboath_Destroyer </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Ithor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Tri_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Ithor, Interceptor4_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Myrkr, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Saboath_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor5_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Myrkr, Interceptor5_Frigate </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Tython, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Z95_Headhunter_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Arquitens </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Dreadnaught_Cruiser_P </Starting_Forces>
+		<Starting_Forces> Pirates, Tython, Dreadnaught_Cruiser_P </Starting_Forces>
+
+
+<!-- Pirate Systems, Imperial -->
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Kuat, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Secutor_Imperial_E</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Star_Destroyer</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Star_Destroyer_1</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Vigil_Corvette</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+		<Starting_Forces> Pirates, Kuat, Arquitens</Starting_Forces>
+        
+        <!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Fondor, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Victory_Destroyer </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Procursator </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Jedi_Cruiser_E </Starting_Forces>
+		<Starting_Forces> Pirates, Fondor, Jedi_Cruiser_E </Starting_Forces>
+      
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Loronar, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Vigil_Corvette </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Tartan_Patrol_Cruiser </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Loronar, Nebulon_B_Frigate </Starting_Forces>
+
+
+
+
+<!-- Pirate Systems, Rebel -->
+		
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Fresia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, IPV1_System_Patrol_Craft </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor4_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Pirates, Fresia, Interceptor5_Frigate </Starting_Forces>
+      
+
+<!-- Pirate Systems, CIS -->
+
+		<!-- Pirate Space Forces -->
+		<Starting_Forces> Pirates, Cato_Neimoidia, Pirate_Asteroid_Base </Starting_Forces>
+		<Starting_Forces> Pirates, Cato_Neimoidia, Lucrehulk_Battleship </Starting_Forces>
+
+    </Campaign>
+
+
+
+
+
+ </Campaigns>

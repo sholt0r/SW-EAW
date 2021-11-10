@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+
+<Equations>
+	<NoImportance>
+		1.0
+	</NoImportance>
+	<LowImportance>
+		2.0
+	</LowImportance>
+	<MediumImportance>
+		4.0
+	</MediumImportance>
+	<HighImportance>
+		6.0
+	</HighImportance>
+	<VeryHighImportance>
+		8.0
+	</VeryHighImportance>
+	<HighestImportance>
+		10.0
+	</HighestImportance>
+	<ShortDistance>
+		1500
+	</ShortDistance>
+	<MediumDistance>
+		2500
+	</MediumDistance>
+
+	<FewCashResources>
+		2500
+	</FewCashResources>
+	<MediumCashResources>
+		5000
+	</MediumCashResources>
+	<HighCashResources>
+		15000
+	</HighCashResources>
+
+	<SelfIsNotVeryPoor>
+		(Variable_Self.CreditsUnnormalized > Function_FewCashResources.Evaluate)
+	</SelfIsNotVeryPoor>
+	<SelfIsNotPoor>
+		(Variable_Self.CreditsUnnormalized > Function_MediumCashResources.Evaluate)
+	</SelfIsNotPoor>
+	<SelfIsRich>
+		(Variable_Self.CreditsUnnormalized > Function_HighCashResources.Evaluate)
+	</SelfIsRich>
+
+	<Is_Skirmish_Mode>
+		Game.IsCampaignGame == 0
+	</Is_Skirmish_Mode>
+
+	<Space_Area_Is_Friendly>
+	  	(1.0 - 3.0 * Variable_Target.EnemyForce) *
+		(1.0 + Variable_Target.FriendlyForce)
+	</Space_Area_Is_Friendly>
+
+	<Space_Area_Is_Empty>
+		(1 - Variable_Target.EnemyForce)
+		*
+		(1 - Variable_Target.FriendlyForce)
+		*
+		(Script_GetDistanceToNearestSpaceField.Evaluate{Parameter_Script_String = "ASTEROID"} > 1000)
+		*
+		(Script_GetDistanceToNearestSpaceField.Evaluate{Parameter_Script_String = "NEBULA"} > 1000)
+	</Space_Area_Is_Empty>
+
+	<Target_Has_No_Allied_Units_In_Its_Area>
+	Variable_Target.DistanceToNearestFriendly {Parameter_Category = GameObjectCategoryType[Fighter|Bomber|Corvette|Frigate|Capital]} > 3000
+	</Target_Has_No_Allied_Units_In_Its_Area>
+
+	<Target_Has_No_Allied_Major_Forces_In_Its_Area>
+	Variable_Target.DistanceToNearestFriendly {Parameter_Category = GameObjectCategoryType[Frigate|Capital]} > 3000
+	</Target_Has_No_Allied_Major_Forces_In_Its_Area>
+
+	<Target_Is_Currently_Taking_Damage>
+		Variable_Target.HasTakenDamage {Parameter_Time = 5}
+	</Target_Is_Currently_Taking_Damage>
+
+	<Target_Is_Under_Siege>
+		Variable_Target.HasTakenDamage {Parameter_Time = 30}
+	</Target_Is_Under_Siege>
+
+	<Target_Is_Space_Station>
+		Variable_Target.Type.IsType {Parameter_Type = "Rebel_Star_Base_1",
+		Parameter_Type = "Rebel_Star_Base_2",
+		Parameter_Type = "Rebel_Star_Base_3",
+		Parameter_Type = "Rebel_Star_Base_4",
+		Parameter_Type = "Rebel_Star_Base_5",
+		Parameter_Type = "Empire_Star_Base_1",
+		Parameter_Type = "Empire_Star_Base_2",
+		Parameter_Type = "Empire_Star_Base_3",
+		Parameter_Type = "Empire_Star_Base_3",
+		Parameter_Type = "Empire_Star_Base_3",
+		Parameter_Type = "Underworld_Star_Base_1",
+		Parameter_Type = "Underworld_Star_Base_2",
+		Parameter_Type = "Underworld_Star_Base_3",
+		Parameter_Type = "Underworld_Star_Base_4",
+		Parameter_Type = "Underworld_Star_Base_5",
+		Parameter_Type = "Skirmish_Rebel_Star_Base_1",
+		Parameter_Type = "Skirmish_Rebel_Star_Base_2",
+		Parameter_Type = "Skirmish_Rebel_Star_Base_3",
+		Parameter_Type = "Skirmish_Rebel_Star_Base_4",
+		Parameter_Type = "Skirmish_Rebel_Star_Base_5",
+		Parameter_Type = "Skirmish_Empire_Star_Base_1",
+		Parameter_Type = "Skirmish_Empire_Star_Base_2",
+		Parameter_Type = "Skirmish_Empire_Star_Base_3",
+		Parameter_Type = "Skirmish_Empire_Star_Base_4",
+		Parameter_Type = "Skirmish_Empire_Star_Base_5",
+		Parameter_Type = "Skirmish_Underworld_Star_Base_1",
+		Parameter_Type = "Skirmish_Underworld_Star_Base_2",
+		Parameter_Type = "Skirmish_Underworld_Star_Base_3",
+		Parameter_Type = "Skirmish_Underworld_Star_Base_4",
+		Parameter_Type = "Skirmish_Underworld_Star_Base_5"
+		}
+	</Target_Is_Space_Station>
+
+	<Target_Is_Asteroid_Building>
+		Variable_Target.Type.IsType {Parameter_Type = "Empire_Mineral_Extractor"
+										,Parameter_Type = "Rebel_Mineral_Extractor"
+										,Parameter_Type = "Underworld_Mineral_Extractor"
+                                        ,Parameter_Type = "Underworld_Defended_Mineral_Extractor"
+										,Parameter_Type = "Empire_Defended_Mineral_Extractor"
+										,Parameter_Type = "Rebel_Defended_Mineral_Extractor"
+		}
+	</Target_Is_Asteroid_Building>
+</Equations>

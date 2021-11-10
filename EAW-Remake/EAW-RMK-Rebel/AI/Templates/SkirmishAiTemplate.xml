@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<AITemplates>
+
+	<Skirmish_Default>
+
+		<Priority>1</Priority>
+		
+		<Trigger>One</Trigger>
+		
+		<Budget>
+			<Offensive>SkirmishOffensiveBudget</Offensive>
+			<Infrastructure>SkirmishInfrastructureBudget</Infrastructure>
+		</Budget>
+
+		<Turn_On>
+			<Goals>
+				<Category>Always</Category>
+				<Category>Offensive</Category>
+				<Category>Defensive</Category>
+				<Category>Information</Category>
+				<Category>Infrastructure</Category>
+				<Category>Hero</Category>
+				<Category>StoryArc</Category>
+			</Goals>
+			
+			<Plans>
+				<Goal_Category>Always</Goal_Category>
+				<Goal_Category>Offensive</Goal_Category>
+				<Goal_Category>Defensive</Goal_Category>
+				<Goal_Category>Infrastructure</Goal_Category>
+				<Goal_Category>Information</Goal_Category>
+				<Goal_Category>Hero</Goal_Category>
+				<Goal_Category>StoryArc</Goal_Category>
+			</Plans>
+		</Turn_On>
+
+	</Skirmish_Default>
+	
+</AITemplates>

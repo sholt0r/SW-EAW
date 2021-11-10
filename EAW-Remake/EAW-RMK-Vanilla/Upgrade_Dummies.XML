@@ -1,0 +1,705 @@
+<?xml version="1.0"?>
+<Hero_Upgrade_Files>	
+
+<SpaceUnit Name="Underworld_Tech_02">
+        <Text_ID>UPGRADE_UNDERWORLD_TECH_02</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_TECH_DISC_02</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>I_BUTTON_U_TECH_UPGRADE_2.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures/>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>20000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_UNDERWORLD_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 200, 225, 25, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Underworld_Tech_03">
+        <Text_ID>UPGRADE_UNDERWORLD_TECH_03</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_TECH_DISC_03</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>I_BUTTON_U_TECH_UPGRADE_3.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>30000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_UNDERWORLD_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 200, 225, 25, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Underworld_Tech_04">
+        <Text_ID>UPGRADE_UNDERWORLD_TECH_04</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_TECH_DISC_04</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>I_BUTTON_U_TECH_UPGRADE_4.tga</Icon_Name>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>40000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_UNDERWORLD_TECH_04 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 200, 225, 25, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Underworld_Tech_05">
+        <Text_ID>UPGRADE_UNDERWORLD_TECH_05</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_TECH_DISC_05</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>I_BUTTON_U_TECH_UPGRADE_5.tga</Icon_Name>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>50000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_UNDERWORLD_TECH_05 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 200, 225, 25, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+
+<SpaceUnit Name="Empire_Tech_02">
+        <Text_ID>UPGRADE_EMPIRE_TECH_02</Text_ID>
+        <Encyclopedia_Text>UPGRADE_EMPIRE_TECH_DISC_02</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_E_TECH_UPGRADE_2.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures/>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>20000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 54, 134, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Empire_Tech_03">
+        <Text_ID>UPGRADE_EMPIRE_TECH_03</Text_ID>
+        <Encyclopedia_Text>UPGRADE_EMPIRE_TECH_DISC_03</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_E_TECH_UPGRADE_3.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>30000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 54, 134, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Empire_Tech_04">
+        <Text_ID>UPGRADE_EMPIRE_TECH_04</Text_ID>
+        <Encyclopedia_Text>UPGRADE_EMPIRE_TECH_DISC_04</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_E_TECH_UPGRADE_4.tga</Icon_Name>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>40000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_04 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 54, 134, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Empire_Tech_05">
+        <Text_ID>UPGRADE_EMPIRE_TECH_05</Text_ID>
+        <Encyclopedia_Text>UPGRADE_EMPIRE_TECH_DISC_05</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>I_BUTTON_E_TECH_UPGRADE_5.tga</Icon_Name>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>50000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_EMPIRE_TECH_05 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 54, 134, 242, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed> Galactic_Death_Star_Complete_Music_Event </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+	
+<SpaceUnit Name="Rebel_Tech_02">
+        <Text_ID>UPGRADE_REBEL_TECH_02</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_TECH_DISC_02</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_R_TECH_UPGRADE_2.tga</Icon_Name>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures/>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>20000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>1</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_02 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Rebel_Tech_03">
+        <Text_ID>UPGRADE_REBEL_TECH_03</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_TECH_DISC_03</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_R_TECH_UPGRADE_3.tga</Icon_Name>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>30000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_03 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Rebel_Tech_04">
+        <Text_ID>UPGRADE_REBEL_TECH_04</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_TECH_DISC_04</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_R_TECH_UPGRADE_4.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>40000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_04 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Rebel_Tech_05">
+        <Text_ID>UPGRADE_REBEL_TECH_05</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_TECH_DISC_05</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_R_TECH_UPGRADE_5.tga</Icon_Name>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures></Required_Special_Structures>
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>50000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
+		<CategoryMask> Corvette </CategoryMask>
+		<Ship_Class>Corvette</Ship_Class>
+		<AI_Combat_Power>7500</AI_Combat_Power>
+
+		<Build_Countdown_Timer> Yes </Build_Countdown_Timer>
+		<Build_Countdown_Text_ID> UPGRADE_REBEL_TECH_05 </Build_Countdown_Text_ID>
+		<Build_Countdown_Text_RGBA> 185, 40, 39, 255 </Build_Countdown_Text_RGBA>
+		<Build_Music_Completed>  </Build_Music_Completed>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+	
+	<!--
+<SpaceUnit Name="Secret_Weapons_upgrade">
+        <Text_ID>UPGRADE_EMPIRE_SW</Text_ID>
+        <Encyclopedia_Text>UPGRADE_EMPIRE_SW_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Empire</Affiliation>
+		<Icon_Name>i_button_death_star_complete.tga</Icon_Name>
+        <Tech_Level>5</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>5</Required_Star_Base_Level>
+		<Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>300</Build_Time_Seconds>
+        <Build_Cost_Credits>50000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+<SpaceUnit Name="Unlock_X-Wing_upgrade">
+        <Text_ID>UPGRADE_REBEL_XWING</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_XWING_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_X_Wing.tga</Icon_Name>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>500</Slice_Cost_Credits>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>20</Build_Time_Seconds>
+        <Build_Cost_Credits>1500</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="X-Wing_Torpedo_Upgrade">
+        <Text_ID>UPGRADE_REBEL_XWING_TORP</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_XWING_TORP_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_X_Wing.tga</Icon_Name>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>500</Slice_Cost_Credits>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>60</Build_Time_Seconds>
+        <Build_Cost_Credits>1500</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Y-Wing_Torpedo_Upgrade">
+        <Text_ID>UPGRADE_REBEL_YWING_TORP</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_YWING_TORP_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>I_BUTTON_Y_Wing.tga</Icon_Name>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>500</Slice_Cost_Credits>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>60</Build_Time_Seconds>
+        <Build_Cost_Credits>3000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Interceptor5_upgrade">
+        <Text_ID>UPGRADE_UNDERWORLD_INTERCEPTORV</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_INTERCEPTORV_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>i_button_Pirate_frigate.tga</Icon_Name>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>20</Build_Time_Seconds>
+        <Build_Cost_Credits>3000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+	
+
+<SpaceUnit Name="Crusader_Point_Defense_upgrade">
+        <Text_ID>UPGRADE_UNDERWORLD_CRUSADER_PD</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_CRUSADER_PD_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>i_multi_targeting_system1.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>60</Build_Time_Seconds>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="StarViper_Armor_upgrade">
+        <Text_ID>UPGRADE_UNDERWORLD_STARVIPER_ARMOR</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_STARVIPER_ARMOR_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>i_multi_magnetically_sealed_armor1.tga</Icon_Name>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>60</Build_Time_Seconds>
+        <Build_Cost_Credits>3000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Cloaking_upgrade">
+        <Text_ID>TEXT_UPGRADE_ACCLAMATOR_TO_VICTORY_01</Text_ID>
+        <Encyclopedia_Text>TEXT_UPGRADE_ACCLAMATOR_TO_VICTORY_02</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_UPGRADE_ACCLAMATOR_TO_VICTORY_01 </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>i_multi_cloaking_gen1.tga</Icon_Name>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>90</Build_Time_Seconds>
+        <Build_Cost_Credits>7000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+<SpaceUnit Name="Kandosii_Armor_upgrade">
+        <Text_ID>UPGRADE_UNDERWORLD_KANDOSII_ARMOR</Text_ID>
+        <Encyclopedia_Text>UPGRADE_UNDERWORLD_KANDOSII_ARMOR_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Underworld</Affiliation>
+		<Icon_Name>i_multi_magnetically_sealed_armor1.tga</Icon_Name>
+        <Tech_Level>5</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>5</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>120</Build_Time_Seconds>
+        <Build_Cost_Credits>12000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+	-->
+
+	<SpaceUnit Name="Rebel_Shield_upgrade">
+        <Text_ID>UPGRADE_REBEL_REFLECTIVE_SHIELDS</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_REFLECTIVE_SHIELDS_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+        <Affiliation>Rebel</Affiliation>
+		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>5</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Time_Seconds>750</Build_Time_Seconds>
+        <Build_Cost_Credits>75000</Build_Cost_Credits>
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+
+	
+	<SpaceUnit Name="Death_Penalty_Master">
+			<Lua_Script>DEATHPENALTY</Lua_Script>
+        <Text_ID>UPGRADE_REBEL_REFLECTIVE_SHIELDS</Text_ID>
+        <Encyclopedia_Text>UPGRADE_REBEL_REFLECTIVE_SHIELDS_DISC</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> UPGRADE_CLASS </Encyclopedia_Unit_Class>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+        <Affiliation>Neutral</Affiliation>
+		<Icon_Name>i_multi_enhanced_shield1.tga</Icon_Name>
+        <Tech_Level>99</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>5</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+		<Required_Orbiting_Units />
+        <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+        <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+        <Population_Value>0</Population_Value>
+        <GUI_Row>0</GUI_Row>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+    <SFXEvent_Select>SFX_NA</SFXEvent_Select>
+    </SpaceUnit>
+	
+	
+	
+
+
+</Hero_Upgrade_Files>

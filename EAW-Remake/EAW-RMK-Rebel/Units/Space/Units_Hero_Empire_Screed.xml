@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Annihilator_Files>
+
+	<UniqueUnit Name="Screed_Demolisher">
+
+
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Variant_Of_Existing_Type>Gladiator_Star_Destroyer_No_Fighters</Variant_Of_Existing_Type>
+
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Text_ID>TEXT_UNIT_SCREED</Text_ID>
+
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Tech_Level>0</Tech_Level>
+		<Required_Planets></Required_Planets>
+		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Piracy_Value_Credits>250</Piracy_Value_Credits>
+		<AI_Combat_Power>200</AI_Combat_Power>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_SCREED </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		
+		<Icon_Name>I_BUTTON_CAPTAIN_SCREED.tga</Icon_Name>
+		
+			<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_0> 
+
+			<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
+			<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
+		
+		<HardPoints>
+			HP_Gladiator_Laser_01,
+			HP_Gladiator_Laser_02,
+			HP_Demolisher_Missle_Launcher_01,
+			HP_Demolisher_Missle_Launcher_02,
+			HP_Gladiator_Turbolaser_01,
+			HP_Gladiator_Turbolaser_02,
+			HP_Gladiator_Hangar,
+			HP_Gladiator_Shield,
+		</HardPoints>
+
+		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+			<Unit_Ability>
+				<Type>FULL_SALVO</Type>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Expiration_Seconds>15</Expiration_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_INTENSIFY_FIREPOWER</Alternate_Description_Text>
+				<Alternate_Icon_Name>i_sa_intensify_firepower.tga</Alternate_Icon_Name>
+            </Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Lua_Script>ObjectScript_PowerToShields_Layer_Z</Lua_Script>
+	</UniqueUnit>
+
+	
+</Annihilator_Files>
