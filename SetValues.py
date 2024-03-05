@@ -1,3 +1,4 @@
+#!/bin/python3
 # Star Wars Empire at War Value Changer
 # Author: JCStaples
 
