@@ -1,3 +1,4 @@
+#!/bin/python3
 # Star Wars Empire at War Value Changer
 # Author: JCStaples
 
@@ -8,7 +9,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Variables
-fileDir = 'D:\\Gaming\\EAW-Backup\\EAWR-EMP\\Buildings\\Ground\\GC'
+fileDir = 'D:\\Gaming\\EAW-XML\\Buildings\\Ground\\GC'
 populationVal = 1
 buildCostVal = 1
 buildTimeVal = 1
