@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Trade_Route_Files>
-	<File>TradeRoutes.xml</File>
-	<File>TradeRoutes_South.xml</File>
-	<File>TradeRoutes_North.xml</File>
-	<File>TradeRoutes_Core.xml</File>
-	<File>TradeRoutes_Complete.xml</File>
-	<File>TradeRoutes_Gateways.xml</File>
-</Trade_Route_Files>

@@ -1,7 +1,0 @@
-<?xml version="1.0" ?>
-<FunctionSet>
-	<Tactical_Multiplayer_Build_Space_Units_Generic>
-		<Goal>Tactical_Multiplayer_Build_Space_Units_Generic</Goal>
-		<Function>Need_To_Build_Units_Space</Function>
-	</Tactical_Multiplayer_Build_Space_Units_Generic>
-</FunctionSet>
